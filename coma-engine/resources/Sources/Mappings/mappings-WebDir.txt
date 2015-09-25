@@ -1,0 +1,119 @@
+--------------------------------------------------------
+MatchResult of simMatrix [69,69]
+ + Name: Freizeit
+ + Info: UserFeedback
+ + Source: dmoz_Freizeit|RESOLVED|file:/E:/workspace/COMA++/Sources/webdirectories/dmoz.Freizeit.owl
+ + Target: Google_Freizeit|RESOLVED|file:/E:/workspace/COMA++/Sources/webdirectories/Google.Freizeit.owl
+ + Matcher: Unknown
+ + Config: Unknown
+ - Top_World_Deutsch_Online-Shops.Freizeit.Artistik <-> World_Deutsch_Online-Shops.Freizeit.Artistik: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln.Kerzen <-> World_Deutsch_Online-Shops.Freizeit.Basteln.Kerzen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln.Malen <-> World_Deutsch_Online-Shops.Freizeit.Basteln.Malen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln.Papier <-> World_Deutsch_Online-Shops.Freizeit.Basteln.Papier: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln.Perlen <-> World_Deutsch_Online-Shops.Freizeit.Basteln.Perlen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln.Serviettentechnik <-> World_Deutsch_Online-Shops.Freizeit.Basteln.Serviettentechnik: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln.Stempeltechnik <-> World_Deutsch_Online-Shops.Freizeit.Basteln.Stempeltechnik: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln.Window_Color <-> World_Deutsch_Online-Shops.Freizeit.Basteln.Window-Color: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Basteln <-> World_Deutsch_Online-Shops.Freizeit.Basteln: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Drogen.Hanf <-> World_Deutsch_Online-Shops.Freizeit.Drogen.Hanf: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Drogen <-> World_Deutsch_Online-Shops.Freizeit.Drogen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Maschinen_und_Zubehoer <-> World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Maschinen-und-Zubehoer: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Naehen.Patchworken_und_Quilten <-> World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Naehen.Patchworken-und-Quilten: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Naehen <-> World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Naehen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Sticken <-> World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Sticken: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Stricken_und_Haekeln <-> World_Deutsch_Online-Shops.Freizeit.Handarbeiten.Stricken-und-Haekeln: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Handarbeiten <-> World_Deutsch_Online-Shops.Freizeit.Handarbeiten: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Lebendige_Geschichte.LARP <-> World_Deutsch_Online-Shops.Freizeit.Lebendige-Geschichte.LARP: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Lebendige_Geschichte.Mittelalterlich <-> World_Deutsch_Online-Shops.Freizeit.Lebendige-Geschichte.Mittelalterlich: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Lebendige_Geschichte.Nordamerikanisch <-> World_Deutsch_Online-Shops.Freizeit.Lebendige-Geschichte.Nordamerikanisch: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Lebendige_Geschichte <-> World_Deutsch_Online-Shops.Freizeit.Lebendige-Geschichte: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Dampfmaschinen <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Dampfmaschinen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Eisenbahnen.Zubehoer <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Eisenbahnen.Zubehoer: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Eisenbahnen <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Eisenbahnen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge.Autos.Ferngesteuert <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge.Autos.Ferngesteuert: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge.Autos.Slotcars <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge.Autos.Slotcars: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge.Autos <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge.Autos: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Fahrzeuge: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Ferngesteuert <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Ferngesteuert: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Flugmodelle.Flugzeuge <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Flugzeuge-und-Helikopter.Flugzeuge: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Flugmodelle.Helikopter <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Flugzeuge-und-Helikopter.Helikopter: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Flugmodelle.Raketen <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Raketen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Flugmodelle <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Flugzeuge-und-Helikopter: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Militaer <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Militaer: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Puppenhaeuser_und_Miniaturen <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Puppenhaeuser-und-Miniaturen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Schiffe <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Schiffe: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau.Zubehoer <-> World_Deutsch_Online-Shops.Freizeit.Modellbau.Zubehoer: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Modellbau <-> World_Deutsch_Online-Shops.Freizeit.Modellbau: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Natur_und_Wissenschaft.Astronomie.Ausserirdische_Grundstuecke <-> World_Deutsch_Online-Shops.Freizeit.Natur-und-Wissenschaft.Astronomie.Ausserirdische-Grundstuecke: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Natur_und_Wissenschaft.Astronomie.Sternnamen <-> World_Deutsch_Online-Shops.Freizeit.Natur-und-Wissenschaft.Astronomie.Sternnamen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Natur_und_Wissenschaft.Astronomie <-> World_Deutsch_Online-Shops.Freizeit.Natur-und-Wissenschaft.Astronomie: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Natur_und_Wissenschaft.Biologie <-> World_Deutsch_Online-Shops.Freizeit.Natur-und-Wissenschaft.Biologie: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Natur_und_Wissenschaft.Geowissenschaften.Meteorologie <-> World_Deutsch_Online-Shops.Freizeit.Natur-und-Wissenschaft.Geowissenschaften.Meteorologie: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Natur_und_Wissenschaft.Geowissenschaften <-> World_Deutsch_Online-Shops.Freizeit.Natur-und-Wissenschaft.Geowissenschaften: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Natur_und_Wissenschaft <-> World_Deutsch_Online-Shops.Freizeit.Natur-und-Wissenschaft: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping.Bekleidung <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping.Bekleidung: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping.Fahrzeuge <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping.Fahrzeuge: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping.Jagd <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping.Jagd: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping.Metalldetektoren <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping.Metalldetektoren: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping.Optik <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping.Optik: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping.Zelte <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping.Zelte: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping.Zubehoer <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping.Zubehoer: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Outdoor_und_Camping <-> World_Deutsch_Online-Shops.Freizeit.Outdoor-und-Camping: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Partys.Ballons <-> World_Deutsch_Online-Shops.Freizeit.Partys.Ballons: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Partys.Feuerwerk <-> World_Deutsch_Online-Shops.Freizeit.Partys.Feuerwerk: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Partys.Schminke <-> World_Deutsch_Online-Shops.Freizeit.Partys.Schminke: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Partys <-> World_Deutsch_Online-Shops.Freizeit.Partys: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Waffen.Auktionen <-> World_Deutsch_Online-Shops.Freizeit.Waffen.Auktionen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Waffen.Bogen_und_Armbrust <-> World_Deutsch_Online-Shops.Freizeit.Waffen.Bogen-und-Armbrust: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Waffen.Hieb_und_Stichwaffen <-> World_Deutsch_Online-Shops.Freizeit.Waffen.Hieb-und-Stichwaffen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Waffen.Schusswaffen.Luft_und_Gasdruck <-> World_Deutsch_Online-Shops.Freizeit.Waffen.Schusswaffen.Luft-und-Gasdruck: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Waffen.Schusswaffen.Zubehoer <-> World_Deutsch_Online-Shops.Freizeit.Waffen.Schusswaffen.Zubehoer: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Waffen.Schusswaffen <-> World_Deutsch_Online-Shops.Freizeit.Waffen.Schusswaffen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Waffen <-> World_Deutsch_Online-Shops.Freizeit.Waffen: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit.Zaubern <-> World_Deutsch_Online-Shops.Freizeit.Zaubern: 1.0
+ - Top_World_Deutsch_Online-Shops.Freizeit <-> World_Deutsch_Online-Shops.Freizeit: 1.0
+ - Top_World_Deutsch_Online-Shops <-> World_Deutsch_Online-Shops: 1.0
+ + Total: 67 correspondences
+--------------------------------------------------------
+--------------------------------------------------------
+MatchResult of simMatrix [31,30]
+ + Name: Lebensmittel
+ + Info: UserFeedback
+ + Source: Google_Lebensmittel|RESOLVED|file:/E:/workspace/COMA++/Sources/webdirectories/Google.Lebensmittel.owl
+ + Target: web_Lebensmittel|RESOLVED|file:/E:/workspace/COMA++/Sources/webdirectories/web.Lebensmittel.owl
+ + Matcher: Unknown
+ + Config: Unknown
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Backwaren <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Back-Suesswaren: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Biokost <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Naturkost: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Fisch-und-Meeresfruechte <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Fisch: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Fleisch-und-Wurst <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Fleisch-Wurst: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Bier <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Bier: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Kaffee-und-Tee <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Tee-Kaffee: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Spirituosen <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Spirituosen: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Biowein <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Oekologischer-Weinbau: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Baden <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Baden: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Franken <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Franken: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Mosel-Saar-Ruwer <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Mosel: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Mosel-Saar-Ruwer <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Saar: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Nahe <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Nahe: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Pfalz <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Pfalz: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Rheingau <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Rheingau: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch.Rheinhessen <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland.Rheinhessen: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Deutsch <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Deutschland: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Franzoesisch <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Frankreich: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Italienisch <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Italien: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Oesterreichisch <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Oesterreich: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Schweizer <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Schweiz: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Europaeisch.Spanisch <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Spanien: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein.Geschenke <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner.Weinpraesente: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke.Wein <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke.Wein_Sekt-Champagner: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Getraenke <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Getraenke: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Gewuerze-und-Kraeuter <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Kraeuter-Gewuerze: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Kaese <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Kaese-Milchprodukte: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Regionale-Spezialitaeten <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Spezialitaeten: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Suesswaren <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Back-Suesswaren: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Tiefkuehlkost <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Tiefkuehlkost: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken.Vegetarisch <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel.Naturkost: 1.0
+ - World_Deutsch_Online-Shops.Essen-und-Trinken <-> Verzeichnis_Einkaufen-Sparen.Nahrungs-Genussmittel: 1.0
+ + Total: 32 correspondences
+--------------------------------------------------------

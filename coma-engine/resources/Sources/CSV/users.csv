@@ -1,0 +1,8 @@
+User Name, Password, Full Name, Restriction list name, Banned word checking, Allow attachments, Template, Group, Mailbox size, Calendar
+psmith01,CLASS2B,Peter Smith 1,YEAR2,1,N,ADVANCED,STAFF,20,Y
+smehta,CLASS3G,Smeeta Mehta,LOCAL,1,Y,STANDARD,PUPIL,20,N
+mrsjohns,SNHOJ,Mrs R Johns,UNRESTRICTED,-1,Y,ADVANCED,STAFF,20,Y
+psmith02,CLASS4D,Peter Smith 2, UKSCHOOLS,0,N,ADVANCED,STAFF,30,Y
+scohen,CLASS3G,Saul Cohen,LOCAL,2,Y,STANDARD,PUPIL,20,N
+swright,CLASS1J,Shaun Wright,YEAR1,1,N,STANDARD,PUPIL,20,N
+amarkov,CLASS4E,Anya Markov,UKSCHOOLS,3,Y,STANDARD,PUPIL,20,N

@@ -1,0 +1,4 @@
+CREATE DATABASE fitmansemadb;
+CREATE USER 'semauser'@'localhost' IDENTIFIED BY 'semapwdfitmanuser';
+GRANT ALL PRIVILEGES ON fitmansemadb.* TO 'semauser'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+	<bookObject>
+		<title>The Spring</title>
+		<genre>YA</genre>
+		<author>
+			<title></title>
+			<firstName>J. M.</firstName>
+			<lastName>Reep</lastName>
+		</author>	
+		<year>2008</year>
+	</bookObject>
+	<bookObject>
+		<title>The Pirate</title>
+		<genre>General</genre>
+		<author>
+			<title>Sir</title>
+			<firstName>Walter</firstName>
+			<lastName>Scott</lastName>
+		</author>
+		<year>2008</year>
+	</bookObject>
+	<bookObject>
+		<title>Jane Eyre</title>
+		<genre>General</genre>
+		<author>
+			<title></title>
+			<firstName>Charlotte</firstName>
+			<lastName>Bronte</lastName>
+		</author>
+		<year>1847</year>
+	</bookObject>
+	<bookObject>
+		<title>A Christmas Carol</title>
+		<genre>Children</genre>
+		<author>
+			<title></title>
+			<firstName>Charles</firstName>
+			<lastName>Dickens</lastName>
+		</author>	
+		<year>1844</year>
+	</bookObject>
+	<bookObject>
+		<title>Dracula</title>
+		<genre>Thriller</genre>
+		<author>
+			<title></title>
+			<firstName>Bram</firstName>
+			<lastName>Stoker</lastName>
+		</author>
+		<year>1899</year>
+	</bookObject>
+</bookstore>

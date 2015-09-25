@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Class-Path: commons-math-2.1.jar google-collections-1.0-rc2.jar common
+ s-lang-2.5.jar xpp3_min-1.1.4c.jar mysql-connector-java-5.1.9.jar had
+ oop-core-0.20.2.jar commons-dbcp-1.2.2.jar slf4j-api-1.6.0.jar common
+ s-beanutils-1.8.3.jar commons-logging-1.1.jar antlr-runtime-3.3.jar M
+ atchLibrary-CE-1.0.2.jar jsr305-1.3.9.jar commons-codec-1.6.jar commo
+ ns-logging-1.1.3.jar fluent-hc-4.3.1.jar httpclient-4.3.1.jar httpcli
+ ent-cache-4.3.1.jar httpcore-4.3.jar httpmime-4.3.1.jar align-4.2-pro
+ calign.jar solr-commons-csv-3.1.0.jar lucene-memory-3.0.1.jar align-4
+ .2-ontowrap.jar commons-codec-1.3.jar slf4j-jcl-1.6.0.jar antlr-3.3.j
+ ar log4j-1.2.12.jar xml-apis-1.3.04.jar uncommons-maths-1.2.jar guava
+ -10.0.jar jgrapht-jdk1.6-0.8.1.jar stax-api-1.0.1.jar xercesImpl-2.9.
+ 0.jar jettison-1.3.jar watchmaker-framework-0.6.2.jar httpcore-4.3.ja
+ r owlapi-3.2.2.jar httpmime-4.3.1.jar align-4.2-align.jar fluent-hc-4
+ .3.1.jar httpclient-4.3.1.jar commons-codec-1.6.jar align-4.2-ontowra
+ p.jar hadoop-core-0.20.2.jar align-4.2-procalign.jar jgrapht-jdk1.6-0
+ .8.1.jar commons-logging-1.1.3.jar MatchLibrary-CE-1.0.2.jar httpclie
+ nt-cache-4.3.1.jar commons-httpclient-3.0.1.jar lucene-core-3.0.1.jar
+  commons-cli-2.0-mahout.jar lucene-spellchecker-3.0.1.jar lucene-quer
+ ies-3.0.1.jar lucene-highlighter-3.0.1.jar antlr-2.7.7.jar commons-cl
+ i-1.2.jar mahout-collections-1.0.jar javolution-5.5.1.jar stringtempl
+ ate-3.2.1.jar hadoop-core-0.20.2.jar mahout-core-0.5.jar lucene-analy
+ zers-3.0.1.jar owlapi-3.2.2.jar mahout-utils-0.5.jar commons-pool-1.4
+ .jar xstream-1.3.1.jar commons-collections-3.2.1.jar mahout-math-0.5.
+ jar align-4.2-align.jar
+Main-Class: de.wdilab.coma.gui.Main
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MatchLibrary-Matcher" basedir="." default="jar">
+
+	<tstamp>
+		<format property="TODAY" pattern="yyyy.MM.dd" />
+	</tstamp>
+
+	<property name="src.dir" value="src" />
+	<property name="classes.dir" value="bin" />
+	<property name="dist.dir" value="dist" />
+	<property name="lib.dir" value="lib" />
+
+	<target name="init">
+		<echo message="---------- project '${ant.project.name}' [${TODAY}] ----------" />
+		<echo message="" />
+
+		<!-- Create build dir -->
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${dist.dir}/bak" />
+		<mkdir dir="${lib.dir}" />
+	</target>
+
+	<target name="clean" description="Delete all generated files" depends="init">
+		<move todir="${dist.dir}/bak" includeemptydirs="false">
+			<fileset dir="${dist.dir}">
+				<include name="${ant.project.name}.jar" />
+				<exclude name="**/*.bak" />
+			</fileset>
+			<mapper type="glob" from="*" to="*-${TODAY}.jar" />
+		</move>
+		<!-- <delete dir="${classes.dir}" failonerror="false" />-->
+		<delete file="${ant.project.name}.jar" />
+	</target>
+
+	<target name="compile" description="Compiles the Task">
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" />
+	</target>
+
+	<target name="jar" description="JARs the Task" depends="clean">
+		<jar destfile="${dist.dir}/${ant.project.name}.jar" basedir="${classes.dir}" excludes="**/log4j.properties" />
+		<copy todir="${dist.dir}">
+			<fileset dir="${lib.dir}">
+				<include name="*.jar" />
+			</fileset>
+		</copy>
+		<jar destfile="${dist.dir}/src/${ant.project.name}_source.jar" basedir="${src.dir}" excludes="**/log4j.properties" />
+	</target>
+
+</project>

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Schema name="PurchaseOrder.biz" xmlns="urn:schemas-microsoft-com:xml-data" 
+	xmlns:dt="urn:schemas-microsoft-com:datatypes"> 
+			<ElementType name="PurchaseOrder" content="eltOnly">				
+				<element type="Header"/>
+				<element type="Items"/>
+				<element type="Footer"/>
+				<element type="InvoiceTo"/>
+				<element type="DeliverTo"/>
+			</ElementType><ElementType name="Items" content="eltOnly">
+				<AttributeType name="itemCount" dt:type="int">
+					</AttributeType>
+				<attribute type="itemCount"/>
+				<element type="Item" maxOccurs="*" minOccurs="1"/>
+			</ElementType><ElementType name="Item" content="empty">				
+				<AttributeType name="yourPartNumber" dt:type="string">
+					</AttributeType>
+				<AttributeType name="unitPrice" dt:type="number">
+					</AttributeType>
+				<AttributeType name="unitOfMeasure" dt:type="string">
+					</AttributeType>
+				<AttributeType name="salesValue" dt:type="number">
+					</AttributeType>
+				<AttributeType name="quantity" dt:type="number">
+					</AttributeType>
+				<AttributeType name="partNumber" dt:type="string">
+					</AttributeType>
+				<AttributeType name="partDescription" dt:type="string">
+					</AttributeType>
+				<AttributeType name="itemNumber" dt:type="int">
+					</AttributeType>
+				<attribute type="itemNumber"/>
+				<attribute type="yourPartNumber"/>
+				<attribute type="partNumber"/>
+				<attribute type="partDescription"/>
+				<attribute type="quantity"/>
+				<attribute type="unitOfMeasure"/>
+				<attribute type="unitPrice"/>
+				<attribute type="salesValue"/>
+			</ElementType><ElementType name="InvoiceTo" content="eltOnly">				
+				<element type="Contact"/>
+				<element type="Address"/>
+			</ElementType><ElementType name="Header" content="eltOnly">			
+				<AttributeType name="yourAccountCode" dt:type="string">
+					</AttributeType>
+				<AttributeType name="ourAccountCode" dt:type="string">
+					</AttributeType>
+				<AttributeType name="orderNum" dt:type="string">
+					</AttributeType>
+				<AttributeType name="orderDate" dt:type="date">
+					</AttributeType>
+				<attribute type="orderNum"/>
+				<attribute type="orderDate"/>
+				<attribute type="ourAccountCode"/>
+				<attribute type="yourAccountCode"/>
+				<element type="Contact"/>
+			</ElementType><ElementType name="Footer" content="empty">				
+				<AttributeType name="totalValue" dt:type="number">
+					</AttributeType>
+				<attribute type="totalValue"/>
+			</ElementType><ElementType name="DeliverTo" content="eltOnly">				
+				<element type="Contact"/>
+				<element type="Address"/>
+			</ElementType><ElementType name="Contact" content="empty">
+				<AttributeType name="telephone" dt:type="string">
+					</AttributeType>
+				<AttributeType name="e-mail" dt:type="string">
+					</AttributeType>
+				<AttributeType name="contactName" dt:type="string">
+					</AttributeType>
+				<AttributeType name="companyName" dt:type="string">
+					</AttributeType>
+				<attribute type="contactName"/>
+				<attribute type="companyName"/>
+				<attribute type="e-mail"/>
+				<attribute type="telephone"/>
+			</ElementType><ElementType name="Address" content="empty">				
+				<AttributeType name="street4" dt:type="string">
+					</AttributeType>
+				<AttributeType name="street3" dt:type="string">
+					</AttributeType>
+				<AttributeType name="street2" dt:type="string">
+					</AttributeType>
+				<AttributeType name="street1" dt:type="string">
+					</AttributeType>
+				<AttributeType name="stateProvince" dt:type="string">
+					</AttributeType>
+				<AttributeType name="postalCode" dt:type="string">
+					</AttributeType>
+				<AttributeType name="country" dt:type="string">
+					</AttributeType>
+				<AttributeType name="city" dt:type="string">
+					</AttributeType>
+				<attribute type="street1"/>
+				<attribute type="street2"/>
+				<attribute type="street3"/>
+				<attribute type="street4"/>
+				<attribute type="city"/>
+				<attribute type="stateProvince"/>
+				<attribute type="postalCode"/>
+				<attribute type="country"/>
+			</ElementType></Schema>

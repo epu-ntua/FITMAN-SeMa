@@ -1,0 +1,24 @@
+No, Number
+Num, Number
+Cust, Customer
+qty, Quantity
+uom, Unit Of Measure
+po, PurchaseOrder
+tel, telephone
+ord, order
+mod, model
+ref, reference
+desc, description
+descr, description
+del, delivery
+VAT, value added tax
+
+id, identifier
+RFQ, request for quotation
+FI, financialinstitution
+ft, feature
+
+Orderchange, Order Change
+Orderresponse, Order Response
+Dispathnotification, Dispatch Notification
+RECEIPTACKNOWLEDGEMENT, RECEIPT ACKNOWLEDGEMENT

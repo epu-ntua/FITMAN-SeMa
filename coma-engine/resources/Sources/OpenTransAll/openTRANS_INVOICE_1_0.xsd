@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Name:             opentrans_invoice_1_0.xsd
+  Fileversion:      1.0
+  Unchanged since:  1.0 draft
+  Date:             10.01.2003
+  Authors:          Oliver Kelkar   (olk),  Fraunhofer IAO Stuttgart
+                    Volker Schmitz  (stz),  Universitaet Essen BLI
+                    Sven Sprandel   (spr),  Fraunhofer IAO Stuttgart
+                    Stefan Kubitzky (kub),  Universitaet Essen BLI
+			
+  Copyright 2003, All Rights Reserved
+  Fraunhofer IAO Stuttgart, Universitaet Essen BLI
+  
+  !! If you've got problems in parsing the identity-constraints !!
+  !! please set the marked blocks in commentary tags            !!
+  !! ***** START deactivate identity-constraints *****          !!
+  !! ***** END deactivate identity-constraints   *****          !!
+
+  openTRANS:
+  more infos and full specification: http://www.opentrans.org
+  e-mail contact: authors@opentrans.org
+
+-->
+
+<xsd:schema targetNamespace="http://www.opentrans.org/XMLSchema/1.0"
+		xmlns="http://www.opentrans.org/XMLSchema/1.0"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="openbase_1_0.xsd"/>
+
+	<xsd:element name="INVOICE">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="INVOICE_HEADER"/>
+				<xsd:element ref="INVOICE_ITEM_LIST"/>
+				<xsd:element ref="INVOICE_SUMMARY"/>
+			</xsd:sequence>
+			<xsd:attribute name="version" type="dtSTRING" fixed="1.0"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="INVOICE_HEADER">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="CONTROL_INFO" minOccurs="0"/>
+				<xsd:element ref="INVOICE_INFO"/>
+				<xsd:element ref="ORDER_HISTORY" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="INVOICE_INFO">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="INVOICE_ID"/>
+				<xsd:element ref="INVOICE_DATE"/>
+				<xsd:element ref="DELIVERY_DATE" minOccurs="0"/>
+				<xsd:element ref="BUYER_PARTY" minOccurs="0"/>
+				<xsd:element ref="SUPPLIER_PARTY"/>
+				<xsd:element ref="INVOICE_PARTY"/>
+				<xsd:element ref="PRICE_CURRENCY"/>
+				<xsd:element ref="PAYMENT" minOccurs="0"/>
+				<xsd:element ref="TERMS_AND_CONDITIONS" minOccurs="0"/>
+				<xsd:element ref="REMARK" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ORDER_HISTORY">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="ORDER_ID"/>
+				<xsd:element ref="ALT_CUSTOMER_ORDER_ID" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="SUPPLIER_ORDER_ID" minOccurs="0"/>
+				<xsd:element ref="ORDER_DATE" minOccurs="0"/>
+				<xsd:element ref="DELIVERYNOTE_ID" minOccurs="0"/>
+				<xsd:element ref="DELIVERYNOTE_DATE" minOccurs="0"/>
+				<xsd:element ref="AGREEMENT" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="CATALOG_REFERENCE" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="INVOICE_ITEM_LIST">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="INVOICE_ITEM" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+		<!-- ***** START deactivate identity-constraints ***** -->
+		<xsd:key name="keyLINE_ITEM_ID">
+			<xsd:selector xpath="INVOICE_ITEM"/>
+			<xsd:field xpath="LINE_ITEM_ID"/>
+		</xsd:key>
+		<!-- ***** END deactivate identity-constraints   ***** -->
+	</xsd:element>
+	<xsd:element name="INVOICE_ITEM">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="LINE_ITEM_ID"/>
+				<xsd:element ref="ARTICLE_ID"/>
+				<xsd:element ref="QUANTITY"/>
+				<xsd:element ref="ORDER_UNIT"/>
+				<xsd:element ref="ARTICLE_PRICE"/>
+				<xsd:element ref="ORDER_REFERENCE" minOccurs="0"/>
+				<xsd:element ref="SUPPLIER_ORDER_REFERENCE" minOccurs="0"/>
+				<xsd:element ref="DELIVERY_REFERENCE" minOccurs="0"/>
+				<xsd:element ref="ACCOUNTING_INFO" minOccurs="0"/>
+				<xsd:element ref="MIME_INFO" minOccurs="0"/>
+				<xsd:element ref="REMARK" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="INVOICE_SUMMARY">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="TOTAL_ITEM_NUM"/>
+				<xsd:element ref="TOTAL_AMOUNT"/>
+				<xsd:element ref="TOTAL_TAX_AMOUNT"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

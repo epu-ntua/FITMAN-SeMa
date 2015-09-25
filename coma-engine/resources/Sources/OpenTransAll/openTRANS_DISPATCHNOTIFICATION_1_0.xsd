@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Name              opentrans_dispatchnotification_1_0.xsd
+  Fileversion:      1.0
+  Unchanged since:  1.0 draft
+  Date:             10.01.2003
+  Authors:          Oliver Kelkar   (olk),  Fraunhofer IAO Stuttgart
+                    Volker Schmitz  (stz),  Universitaet Essen BLI
+                    Sven Sprandel   (spr),  Fraunhofer IAO Stuttgart
+                    Stefan Kubitzky (kub),  Universitaet Essen BLI
+			
+  Copyright 2003, All Rights Reserved
+  Fraunhofer IAO Stuttgart, Universitaet Essen BLI
+  
+  !! If you've got problems in parsing the identity-constraints !!
+  !! please set the marked blocks in commentary tags            !!
+  !! ***** START deactivate identity-constraints *****          !!
+  !! ***** END deactivate identity-constraints   *****          !!
+
+  openTRANS:
+  more infos and full specification: http://www.opentrans.org
+  e-mail contact: authors@opentrans.org
+
+-->
+
+<xsd:schema targetNamespace="http://www.opentrans.org/XMLSchema/1.0"
+		xmlns="http://www.opentrans.org/XMLSchema/1.0"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="openbase_1_0.xsd"/>
+
+	<xsd:element name="DISPATCHNOTIFICATION">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DISPATCHNOTIFICATION_HEADER"/>
+				<xsd:element ref="DISPATCHNOTIFICATION_ITEM_LIST"/>
+				<xsd:element ref="DISPATCHNOTIFICATION_SUMMARY"/>
+			</xsd:sequence>
+			<xsd:attribute name="version" type="dtSTRING" fixed="1.0"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DISPATCHNOTIFICATION_HEADER">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="CONTROL_INFO" minOccurs="0"/>
+				<xsd:element ref="DISPATCHNOTIFICATION_INFO"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DISPATCHNOTIFICATION_INFO">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DISPATCHNOTIFICATION_ID"/>
+				<xsd:element ref="DISPATCHNOTIFICATION_DATE" minOccurs="0"/>
+				<xsd:element ref="BUYER_PARTY"/>
+				<xsd:element ref="SUPPLIER_PARTY"/>
+				<xsd:element ref="SHIPMENT_PARTIES"/>
+				<xsd:element ref="MEANS_OF_TRANSPORT" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="PACKAGE_INFO" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="INTERNATIONAL_RESTRICTIONS" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="REMARK" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DISPATCHNOTIFICATION_ITEM_LIST">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="DISPATCHNOTIFICATION_ITEM" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+		<!-- ***** START deactivate identity-constraints ***** -->
+		<xsd:key name="keyLINE_ITEM_ID">
+			<xsd:selector xpath="DISPATCHNOTIFICATION_ITEM"/>
+			<xsd:field xpath="LINE_ITEM_ID"/>
+		</xsd:key>
+		<!-- ***** END deactivate identity-constraints   ***** -->
+	</xsd:element>
+	<xsd:element name="DISPATCHNOTIFICATION_ITEM">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="LINE_ITEM_ID"/>
+				<xsd:element ref="ARTICLE_ID"/>
+				<xsd:element ref="QUANTITY"/>
+				<xsd:element ref="ORDER_UNIT"/>
+				<xsd:element ref="DELIVERY_COMPLETED" minOccurs="0"/>
+				<xsd:element ref="DELIVERY_DATE" minOccurs="0"/>
+				<xsd:element ref="ORDER_REFERENCE"/>
+				<xsd:element ref="SUPPLIER_ORDER_REFERENCE" minOccurs="0"/>
+				<xsd:element ref="SUPPLIER_PARTY" minOccurs="0"/>
+				<xsd:element ref="SHIPMENT_PARTIES" minOccurs="0"/>
+				<xsd:element ref="PACKAGE_INFO" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="REMARK" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DISPATCHNOTIFICATION_SUMMARY">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="TOTAL_ITEM_NUM"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

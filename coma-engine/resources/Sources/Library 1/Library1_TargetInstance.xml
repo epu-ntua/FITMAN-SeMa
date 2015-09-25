@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+	<book>
+		<title>alice's adventures in wonderland</title>
+		<category>Children</category>
+		<author>Lewis Carroll</author>
+		<year>1863</year>
+	</book>
+	<book>
+		<title>the wizard of oz</title>
+		<category>Children</category>
+		<author>Lyman Frank Baum</author>
+		<year>1900</year>
+	</book>
+	<book>
+		<title>anne of green gables</title>
+		<category>YA</category>
+		<author>Lucy Maud Montgomery</author>
+		<year>1908</year>
+	</book>
+	<book>
+		<title>huckleberry fin</title>
+		<category>Children</category>
+		<author>Mark Twain</author>
+		<year>1884</year>
+	</book>
+	<book>
+		<title>mobby dick</title>
+		<category>YA</category>
+		<author>Herman Melville</author>
+		<year>1851</year>
+	</book>
+</library>

@@ -1,0 +1,669 @@
+--------------------------------------------------------:
+MatchResult of simMatrix [27,31] :
+ + Name: CIDXPOSCHEMA_Excel
+ + Source: CIDXPOSCHEMA|REDUCED
+ + Target: Excel|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PO.POShipTo <-> PurchaseOrder.DeliverTo:1.00
+ - PO.POBillTo <-> PurchaseOrder.InvoiceTo:1.00
+ - PO.Contact <-> PurchaseOrder.DeliverTo.Contact:1.00
+ - PO.Contact <-> PurchaseOrder.InvoiceTo.Contact:1.00
+ - PO.Contact <-> PurchaseOrder.Header.Contact:1.00
+ - PO.POHeader <-> PurchaseOrder.Header:1.00
+ - PO.POLines <-> PurchaseOrder.Items:1.00
+ - PO.POLines.Item <-> PurchaseOrder.Items.Item:1.00
+ - PO.POShipTo.street3 <-> PurchaseOrder.DeliverTo.Address.street2:1.00
+ - PO.POShipTo.street3 <-> PurchaseOrder.DeliverTo.Address.street3:1.00
+ - PO.POShipTo.street3 <-> PurchaseOrder.DeliverTo.Address.street4:1.00
+ - PO.POShipTo.street3 <-> PurchaseOrder.DeliverTo.Address.street1:1.00
+ - PO.POShipTo.street2 <-> PurchaseOrder.DeliverTo.Address.street2:1.00
+ - PO.POShipTo.street2 <-> PurchaseOrder.DeliverTo.Address.street3:1.00
+ - PO.POShipTo.street2 <-> PurchaseOrder.DeliverTo.Address.street4:1.00
+ - PO.POShipTo.street2 <-> PurchaseOrder.DeliverTo.Address.street1:1.00
+ - PO.POShipTo.street1 <-> PurchaseOrder.DeliverTo.Address.street2:1.00
+ - PO.POShipTo.street1 <-> PurchaseOrder.DeliverTo.Address.street3:1.00
+ - PO.POShipTo.street1 <-> PurchaseOrder.DeliverTo.Address.street4:1.00
+ - PO.POShipTo.street1 <-> PurchaseOrder.DeliverTo.Address.street1:1.00
+ - PO.POShipTo.street4 <-> PurchaseOrder.DeliverTo.Address.street2:1.00
+ - PO.POShipTo.street4 <-> PurchaseOrder.DeliverTo.Address.street3:1.00
+ - PO.POShipTo.street4 <-> PurchaseOrder.DeliverTo.Address.street4:1.00
+ - PO.POShipTo.street4 <-> PurchaseOrder.DeliverTo.Address.street1:1.00
+ - PO.POBillTo.street4 <-> PurchaseOrder.InvoiceTo.Address.street2:1.00
+ - PO.POBillTo.street4 <-> PurchaseOrder.InvoiceTo.Address.street3:1.00
+ - PO.POBillTo.street4 <-> PurchaseOrder.InvoiceTo.Address.street4:1.00
+ - PO.POBillTo.street4 <-> PurchaseOrder.InvoiceTo.Address.street1:1.00
+ - PO.POBillTo.street3 <-> PurchaseOrder.InvoiceTo.Address.street2:1.00
+ - PO.POBillTo.street3 <-> PurchaseOrder.InvoiceTo.Address.street3:1.00
+ - PO.POBillTo.street3 <-> PurchaseOrder.InvoiceTo.Address.street4:1.00
+ - PO.POBillTo.street3 <-> PurchaseOrder.InvoiceTo.Address.street1:1.00
+ - PO.POBillTo.street1 <-> PurchaseOrder.InvoiceTo.Address.street2:1.00
+ - PO.POBillTo.street1 <-> PurchaseOrder.InvoiceTo.Address.street3:1.00
+ - PO.POBillTo.street1 <-> PurchaseOrder.InvoiceTo.Address.street4:1.00
+ - PO.POBillTo.street1 <-> PurchaseOrder.InvoiceTo.Address.street1:1.00
+ - PO.POBillTo.street2 <-> PurchaseOrder.InvoiceTo.Address.street2:1.00
+ - PO.POBillTo.street2 <-> PurchaseOrder.InvoiceTo.Address.street3:1.00
+ - PO.POBillTo.street2 <-> PurchaseOrder.InvoiceTo.Address.street4:1.00
+ - PO.POBillTo.street2 <-> PurchaseOrder.InvoiceTo.Address.street1:1.00
+ - PO.POShipTo.country <-> PurchaseOrder.DeliverTo.Address.country:1.00
+ - PO.POBillTo.country <-> PurchaseOrder.InvoiceTo.Address.country:1.00
+ - PO.POShipTo.city <-> PurchaseOrder.DeliverTo.Address.city:1.00
+ - PO.POBillTo.city <-> PurchaseOrder.InvoiceTo.Address.city:1.00
+ - PO.POShipTo.stateProvince <-> PurchaseOrder.DeliverTo.Address.stateProvince:1.00
+ - PO.POBillTo.stateProvince <-> PurchaseOrder.InvoiceTo.Address.stateProvince:1.00
+ - PO.POShipTo.postalCode <-> PurchaseOrder.DeliverTo.Address.postalCode:1.00
+ - PO.POBillTo.postalCode <-> PurchaseOrder.InvoiceTo.Address.postalCode:1.00
+ - PO.Contact.contactName <-> PurchaseOrder.DeliverTo.Contact.contactName:1.00
+ - PO.Contact.contactName <-> PurchaseOrder.Header.Contact.contactName:1.00
+ - PO.Contact.contactName <-> PurchaseOrder.InvoiceTo.Contact.contactName:1.00
+ - PO.Contact.contactPhone <-> PurchaseOrder.DeliverTo.Contact.telephone:1.00
+ - PO.Contact.contactPhone <-> PurchaseOrder.Header.Contact.telephone:1.00
+ - PO.Contact.contactPhone <-> PurchaseOrder.InvoiceTo.Contact.telephone:1.00
+ - PO.Contact.contactEmail <-> PurchaseOrder.DeliverTo.Contact.e-mail:1.00
+ - PO.Contact.contactEmail <-> PurchaseOrder.Header.Contact.e-mail:1.00
+ - PO.Contact.contactEmail <-> PurchaseOrder.InvoiceTo.Contact.e-mail:1.00
+ - PO.POLines.Item.uom <-> PurchaseOrder.Items.Item.unitOfMeasure:1.00
+ - PO.POLines.Item.partNo <-> PurchaseOrder.Items.Item.partNumber:1.00
+ - PO.POLines.Item.qty <-> PurchaseOrder.Items.Item.quantity:1.00
+ - PO.POLines.Item.unitPrice <-> PurchaseOrder.Items.Item.unitPrice:1.00
+ - PO <-> PurchaseOrder:1.00
+ - PO.POLines.count <-> PurchaseOrder.Items.itemCount:1.00
+ - PO.POHeader.poNumber <-> PurchaseOrder.Header.orderNum:1.00
+ - PO.POHeader.poDate <-> PurchaseOrder.Header.orderDate:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult of simMatrix [21,15]:
+ + Name: CIDXPOSCHEMA_Noris
+ + Source: CIDXPOSCHEMA|REDUCED
+ + Target: Noris|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PO.POShipTo <-> PurchaseOrder.DeliverTo:1.00
+ - PO.POBillTo <-> PurchaseOrder.InvoiceTo:1.00
+ - PO.Contact <-> PurchaseOrder.ContactPerson:1.00
+ - PO.POLines.Item <-> PurchaseOrder.Line:1.00
+ - PO.POShipTo.street3 <-> PurchaseOrder.DeliverTo.Address.street:1.00
+ - PO.POShipTo.street2 <-> PurchaseOrder.DeliverTo.Address.street:1.00
+ - PO.POShipTo.street1 <-> PurchaseOrder.DeliverTo.Address.street:1.00
+ - PO.POShipTo.street4 <-> PurchaseOrder.DeliverTo.Address.street:1.00
+ - PO.POBillTo.street4 <-> PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PO.POBillTo.street3 <-> PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PO.POBillTo.street1 <-> PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PO.POBillTo.street2 <-> PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PO.POShipTo.country <-> PurchaseOrder.DeliverTo.Address.country:1.00
+ - PO.POBillTo.country <-> PurchaseOrder.InvoiceTo.Address.country:1.00
+ - PO.POShipTo.city <-> PurchaseOrder.DeliverTo.Address.city:1.00
+ - PO.POBillTo.city <-> PurchaseOrder.InvoiceTo.Address.city:1.00
+ - PO.POShipTo.postalCode <-> PurchaseOrder.DeliverTo.Address.postalCode:1.00
+ - PO.POBillTo.postalCode <-> PurchaseOrder.InvoiceTo.Address.postalCode:1.00
+ - PO.POLines.Item.qty <-> PurchaseOrder.Line.quantity:1.00
+ - PO.POLines.Item.unitPrice <-> PurchaseOrder.Line.unitPrice:1.00
+ - PO <-> PurchaseOrder:1.00
+ - PO.POShipTo.stateProvince<->PurchaseOrder.DeliverTo.Address.state:1.00
+ - PO.POShipTo<->PurchaseOrder.DeliverTo:1.00
+ - PO.POLines.Item.uom<->PurchaseOrder.Line.unitOfMeasureRef:1.00
+ - PO.POLines.Item.unitPrice<->PurchaseOrder.Line.unitPrice:1.00
+ - PO.POLines.Item.partNo<->PurchaseOrder.Line.productRef:1.00
+ - PO.POLines.Item.line<->PurchaseOrder.Line.lineNo:1.00
+ - PO.POHeader.poNumber<->PurchaseOrder.customerOrderRef:1.00
+ - PO.POHeader.poDate<->PurchaseOrder.orderDate:1.00
+ - PO.POBillTo.stateProvince<->PurchaseOrder.InvoiceTo.Address.state:1.00
+ - PO.POBillTo.postalCode<->PurchaseOrder.InvoiceTo.Address.postalCode:1.00
+ - PO.POBillTo<->PurchaseOrder.InvoiceTo:1.00
+ - PO.Contact.contactPhone<->PurchaseOrder.ContactPerson.tel:1.00
+ - PO.Contact.contactEmail<->PurchaseOrder.ContactPerson.email:1.00
+ - PO.Contact.contactName<->PurchaseOrder.ContactPerson.firstName:1.00
+ - PO.Contact.contactName<->PurchaseOrder.ContactPerson.lastName:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: CIDXPOSCHEMA_Paragon
+ + Source: CIDXPOSCHEMA|REDUCED
+ + Target: Paragon|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PO.POShipTo.street4<->Order.ShipTo.Address:1.00
+ - PO.POShipTo.street3<->Order.ShipTo.Address:1.00
+ - PO.POShipTo.street2<->Order.ShipTo.Address2:1.00
+ - PO.POShipTo.street1<->Order.ShipTo.Address:1.00
+ - PO.POShipTo.street2 <-> Order.ShipTo.Address:1.00
+ - PO.POShipTo.street3 <-> Order.ShipTo.Address2:1.00
+ - PO.POShipTo.street4 <-> Order.ShipTo.Address2:1.00
+ - PO.POShipTo.street1 <-> Order.ShipTo.Address2:1.00
+ - PO.POShipTo.postalCode<->Order.ShipTo.PostalCode:1.00
+ - PO.POShipTo.country<->Order.ShipTo.Country:1.00
+ - PO.POShipTo.city<->Order.ShipTo.City:1.00
+ - PO.POShipTo<->Order.ShipTo:1.00
+ - PO.POLines.startAt<->Order.OrdModels.StartAt:1.00
+ - PO.POLines.Item.unitPrice<->Order.OrdModels.Model.TotalPrchPrice:1.00
+ - PO.POLines.Item.unitPrice<->Order.OrdModels.Model.ColSizes.ColSize.NetPrchPrice:1.00
+ - PO.POLines.Item.qty<->Order.OrdModels.Model.ColSizes.ColSize.Qty:1.00
+ - PO.POLines.Item.partNo<->Order.OrdModels.Model.ModNo:1.00
+ - PO.POLines.Item<->Order.OrdModels.Model:1.00
+ - PO.POLines<->Order.OrdModels:1.00
+ - PO.POHeader.poNumber<->Order.OrderHeader.OrderNo:1.00
+ - PO.POHeader.poDate<->Order.OrderHeader.DateCreated:1.00
+ - PO.POHeader<->Order.OrderHeader:1.00
+ - PO.POBillTo.street4<->Order.BillTo.Address:1.00
+ - PO.POBillTo.street3<->Order.BillTo.Address:1.00
+ - PO.POBillTo.street2 <-> Order.BillTo.Address:1.00
+ - PO.POBillTo.street1<->Order.BillTo.Address:1.00
+ - PO.POBillTo.street4 <-> Order.BillTo.Address2:1.00
+ - PO.POBillTo.street3 <-> Order.BillTo.Address2:1.00
+ - PO.POBillTo.street2<->Order.BillTo.Address2:1.00
+ - PO.POBillTo.street1 <-> Order.BillTo.Address2:1.00
+ - PO.POBillTo.postalCode<->Order.BillTo.PostalCode:1.00
+ - PO.POBillTo.country<->Order.BillTo.Country:1.00
+ - PO.POBillTo.city<->Order.BillTo.City:1.00
+ - PO.POBillTo<->Order.BillTo:1.00
+ - PO.Contact.contactPhone<->Order.ShipTo.Contact.Phone:1.00
+ - PO.Contact.contactPhone<->Order.BillTo.Contact.Phone:1.00
+ - PO.Contact.contactName<->Order.ShipTo.Contact.Name:1.00
+ - PO.Contact.contactName<->Order.BillTo.Contact.Name:1.00
+ - PO.Contact.contactEmail<->Order.ShipTo.Contact.EMail:1.00
+ - PO.Contact.contactEmail<->Order.BillTo.Contact.EMail:1.00
+ - PO.Contact<->Order.ShipTo.Contact:1.00
+ - PO.Contact<->Order.BillTo.Contact:1.00
+ - PO<->Order:1.00
+ - PO.POShipTo.stateProvince<->Order.ShipTo.County:1.00
+ - PO.POLines.count<->Order.OrdModels.TotalOrderlines:1.00
+ - PO.POLines.Item.qty<->Order.OrdModels.Model.ModQty:1.00
+ - PO.POLines.Item.partNo<->Order.OrdModels.Model.ColSizes.ColSize.ItemNo:1.00
+ - PO.POLines.Item.line<->Order.OrdModels.Model.LineNo:1.00
+ - PO.POBillTo.stateProvince<->Order.BillTo.County:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: CIDXPOSCHEMA_Apertum
+ + Source: CIDXPOSCHEMA|REDUCED
+ + Target: Apertum|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PO.POShipTo.street1<->Order.DeliverTo.Address.Street:1.00
+ - PO.POShipTo.stateProvince<->Order.DeliverTo.Address.State:1.00
+ - PO.POShipTo.postalCode<->Order.DeliverTo.Address.PostCode:1.00
+ - PO.POShipTo.country<->Order.DeliverTo.Address.Country:1.00
+ - PO.POShipTo.city<->Order.DeliverTo.Address.City:1.00
+ - PO.POShipTo<->Order.DeliverTo:1.00
+ - PO.POLines.Item.uom<->Order.POLine.Quantity.UnitOfMeasure:1.00
+ - PO.POLines.Item.unitPrice<->Order.POLine.Price.UnitPrice:1.00
+ - PO.POLines.Item.qty<->Order.POLine.Quantity.QuantityAmount:1.00
+ - PO.POLines.Item.partNo<->Order.POLine.Product.SupplierPartID:1.00
+ - PO.POLines.Item.partNo<->Order.POLine.Product.BuyerPartID:1.00
+ - PO.POLines.Item.line<->Order.POLine.LineNo:1.00
+ - PO.POLines<->Order.POLine:1.00
+ - PO.POHeader.poNumber<->Order.POHead.OrderDetails.SupplierOrderReference:1.00
+ - PO.POHeader.poNumber<->Order.POHead.OrderDetails.BuyerOrderReference:1.00
+ - PO.POHeader.poDate<->Order.POHead.OrderDetails.SupplierOrderDate:1.00
+ - PO.POHeader.poDate<->Order.POHead.OrderDetails.BuyerOrderDate:1.00
+ - PO.POHeader<->Order.POHead.OrderDetails:1.00
+ - PO.POBillTo.street1<->Order.InvoiceTo.Address.Street:1.00
+ - PO.POBillTo.stateProvince<->Order.InvoiceTo.Address.State:1.00
+ - PO.POBillTo.postalCode<->Order.InvoiceTo.Address.PostCode:1.00
+ - PO.POBillTo.country<->Order.InvoiceTo.Address.Country:1.00
+ - PO.POBillTo.city<->Order.InvoiceTo.Address.City:1.00
+ - PO.POBillTo<->Order.InvoiceTo:1.00
+ - PO.Contact.contactPhone<->Order.Buyer.Contact.Phone:1.00
+ - PO.Contact.contactPhone<->Order.Supplier.Contact.Phone:1.00
+ - PO.Contact.contactPhone<->Order.DeliverTo.Contact.Phone:1.00
+ - PO.Contact.contactPhone<->Order.InvoiceTo.Contact.Phone:1.00
+ - PO.Contact.contactName<->Order.Buyer.Contact.FirstName:1.00
+ - PO.Contact.contactName<->Order.Buyer.Contact.LastName:1.00
+ - PO.Contact.contactName<->Order.Supplier.Contact.FirstName:1.00
+ - PO.Contact.contactName<->Order.Supplier.Contact.LastName:1.00
+ - PO.Contact.contactName<->Order.DeliverTo.Contact.FirstName:1.00
+ - PO.Contact.contactName<->Order.DeliverTo.Contact.LastName:1.00
+ - PO.Contact.contactName<->Order.InvoiceTo.Contact.FirstName:1.00
+ - PO.Contact.contactName<->Order.InvoiceTo.Contact.LastName:1.00
+ - PO.Contact.contactEmail<->Order.Buyer.Contact.EMail:1.00
+ - PO.Contact.contactEmail<->Order.Supplier.Contact.EMail:1.00
+ - PO.Contact.contactEmail<->Order.DeliverTo.Contact.EMail:1.00
+ - PO.Contact.contactEmail<->Order.InvoiceTo.Contact.EMail:1.00
+ - PO.Contact<->Order.Buyer.Contact:1.00
+ - PO.Contact<->Order.Supplier.Contact:1.00
+ - PO.Contact<->Order.DeliverTo.Contact:1.00
+ - PO.Contact<->Order.InvoiceTo.Contact:1.00
+ - PO<->Order:1.00
+ - PO.POShipTo.street4<->Order.DeliverTo.Address.Street:1.00
+ - PO.POShipTo.street3<->Order.DeliverTo.Address.Street:1.00
+ - PO.POShipTo.street2<->Order.DeliverTo.Address.Street:1.00
+ - PO.POLines.count<->Order.OrderTotal.NumberOfLines:1.00
+ - PO.POLines.Item <-> Order.POLine.Product:1.00
+ - PO.POHeader<->Order.POHead:1.00
+ - PO.POBillTo.street4<->Order.InvoiceTo.Address.Street:1.00
+ - PO.POBillTo.street3<->Order.InvoiceTo.Address.Street:1.00
+ - PO.POBillTo.street2<->Order.InvoiceTo.Address.Street:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: Excel_Noris
+ + Source: Excel|REDUCED
+ + Target: Noris|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PurchaseOrder.Items.Item.unitPrice<->PurchaseOrder.Line.unitPrice:1.00
+ - PurchaseOrder.Items.Item.unitOfMeasure<->PurchaseOrder.Line.unitOfMeasureRef:1.00
+ - PurchaseOrder.Items.Item.quantity<->PurchaseOrder.Line.quantity:1.00
+ - PurchaseOrder.Items.Item.partNumber<->PurchaseOrder.Line.productRef:1.00
+ - PurchaseOrder.Items.Item.itemNumber<->PurchaseOrder.Line.lineNo:1.00
+ - PurchaseOrder.Items.Item<->PurchaseOrder.Line:1.00
+ - PurchaseOrder.InvoiceTo.Contact.telephone<->PurchaseOrder.ContactPerson.tel:1.00
+ - PurchaseOrder.InvoiceTo.Contact.e-mail<->PurchaseOrder.ContactPerson.email:1.00
+ - PurchaseOrder.InvoiceTo.Contact.companyName<->PurchaseOrder.InvoiceTo.Organization.name:1.00
+ - PurchaseOrder.InvoiceTo.Address.street4<->PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PurchaseOrder.InvoiceTo.Address.street3<->PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PurchaseOrder.InvoiceTo.Address.street2<->PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PurchaseOrder.InvoiceTo.Address.street1<->PurchaseOrder.InvoiceTo.Address.street:1.00
+ - PurchaseOrder.InvoiceTo.Address.stateProvince<->PurchaseOrder.InvoiceTo.Address.state:1.00
+ - PurchaseOrder.InvoiceTo.Address.postalCode<->PurchaseOrder.InvoiceTo.Address.postalCode:1.00
+ - PurchaseOrder.InvoiceTo.Address.country<->PurchaseOrder.InvoiceTo.Address.country:1.00
+ - PurchaseOrder.InvoiceTo.Address.city<->PurchaseOrder.InvoiceTo.Address.city:1.00
+ - PurchaseOrder.InvoiceTo.Address<->PurchaseOrder.InvoiceTo.Address:1.00
+ - PurchaseOrder.InvoiceTo<->PurchaseOrder.InvoiceTo:1.00
+ - PurchaseOrder.Header.orderNum<->PurchaseOrder.customerOrderRef:1.00
+ - PurchaseOrder.Header.orderDate<->PurchaseOrder.orderDate:1.00
+ - PurchaseOrder.Header.Contact.telephone<->PurchaseOrder.ContactPerson.tel:1.00
+ - PurchaseOrder.Header.Contact.e-mail<->PurchaseOrder.ContactPerson.email:1.00
+ - PurchaseOrder.Header.Contact<->PurchaseOrder.ContactPerson:1.00
+ - PurchaseOrder.Footer.totalValue<->PurchaseOrder.totalAmount:1.00
+ - PurchaseOrder.DeliverTo.Contact.telephone<->PurchaseOrder.ContactPerson.tel:1.00
+ - PurchaseOrder.DeliverTo.Contact.e-mail<->PurchaseOrder.ContactPerson.email:1.00
+ - PurchaseOrder.DeliverTo.Contact.companyName<->PurchaseOrder.DeliverTo.Organization.name:1.00
+ - PurchaseOrder.DeliverTo.Address.street4<->PurchaseOrder.DeliverTo.Address.street:1.00
+ - PurchaseOrder.DeliverTo.Address.street3<->PurchaseOrder.DeliverTo.Address.street:1.00
+ - PurchaseOrder.DeliverTo.Address.street2<->PurchaseOrder.DeliverTo.Address.street:1.00
+ - PurchaseOrder.DeliverTo.Address.street1<->PurchaseOrder.DeliverTo.Address.street:1.00
+ - PurchaseOrder.DeliverTo.Address.stateProvince<->PurchaseOrder.DeliverTo.Address.state:1.00
+ - PurchaseOrder.DeliverTo.Address.postalCode<->PurchaseOrder.DeliverTo.Address.postalCode:1.00
+ - PurchaseOrder.DeliverTo.Address.country<->PurchaseOrder.DeliverTo.Address.country:1.00
+ - PurchaseOrder.DeliverTo.Address.city<->PurchaseOrder.DeliverTo.Address.city:1.00
+ - PurchaseOrder.DeliverTo.Address<->PurchaseOrder.DeliverTo.Address:1.00
+ - PurchaseOrder.DeliverTo<->PurchaseOrder.DeliverTo:1.00
+ - PurchaseOrder<->PurchaseOrder:1.00
+ - PurchaseOrder.Items.Item.partDescription<->PurchaseOrder.Line.productName:1.00
+ - PurchaseOrder.InvoiceTo.Contact.contactName<->PurchaseOrder.ContactPerson.firstName:1.00
+ - PurchaseOrder.InvoiceTo.Contact.contactName<->PurchaseOrder.ContactPerson.lastName:1.00
+ - PurchaseOrder.InvoiceTo.Contact<->PurchaseOrder.ContactPerson:1.00
+ - PurchaseOrder.Header.Contact.contactName<->PurchaseOrder.ContactPerson.lastName:1.00
+ - PurchaseOrder.Header.Contact.contactName<->PurchaseOrder.ContactPerson.firstName:1.00
+ - PurchaseOrder.Header.Contact.companyName<->PurchaseOrder.InvoiceTo.Organization.name:1.00
+ - PurchaseOrder.Header.Contact.companyName<->PurchaseOrder.DeliverTo.Organization.name:1.00
+ - PurchaseOrder.DeliverTo.Contact.contactName<->PurchaseOrder.ContactPerson.lastName:1.00
+ - PurchaseOrder.DeliverTo.Contact.contactName<->PurchaseOrder.ContactPerson.firstName:1.00
+ - PurchaseOrder.DeliverTo.Contact<->PurchaseOrder.ContactPerson:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: Excel_Paragon
+ + Source: Excel|REDUCED
+ + Target: Paragon|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PurchaseOrder.Items.Item.unitPrice<->Order.OrdModels.Model.TotalPrchPrice:1.00
+ - PurchaseOrder.Items.Item.unitPrice<->Order.OrdModels.Model.ColSizes.ColSize.NetPrchPrice:1.00
+ - PurchaseOrder.Items.Item.quantity<->Order.OrdModels.Model.ColSizes.ColSize.Qty:1.00
+ - PurchaseOrder.Items.Item.partNumber<->Order.OrdModels.Model.ModNo:1.00
+ - PurchaseOrder.Items.Item.itemNumber<->Order.OrdModels.Model.LineNo:1.00
+ - PurchaseOrder.Items.Item<->Order.OrdModels.Model:1.00
+ - PurchaseOrder.Items<->Order.OrdModels:1.00
+ - PurchaseOrder.InvoiceTo.Contact.telephone<->Order.BillTo.Contact.Phone:1.00
+ - PurchaseOrder.InvoiceTo.Contact.e-mail<->Order.BillTo.Contact.EMail:1.00
+ - PurchaseOrder.InvoiceTo.Contact.contactName<->Order.BillTo.Contact.Name:1.00
+ - PurchaseOrder.InvoiceTo.Contact.companyName<->Order.BillTo.CompanyName:1.00
+ - PurchaseOrder.InvoiceTo.Contact<->Order.BillTo.Contact:1.00
+ - PurchaseOrder.InvoiceTo.Address.street4<->Order.BillTo.Address:1.00
+ - PurchaseOrder.InvoiceTo.Address.street3<->Order.BillTo.Address:1.00
+ - PurchaseOrder.InvoiceTo.Address.street2<->Order.BillTo.Address2:1.00
+ - PurchaseOrder.InvoiceTo.Address.street1<->Order.BillTo.Address:1.00
+ - PurchaseOrder.InvoiceTo.Address.street3 <-> Order.BillTo.Address2:1.00
+ - PurchaseOrder.InvoiceTo.Address.street2 <-> Order.BillTo.Address:1.00
+ - PurchaseOrder.InvoiceTo.Address.street4 <-> Order.BillTo.Address2:1.00
+ - PurchaseOrder.InvoiceTo.Address.street1 <-> Order.BillTo.Address2:1.00
+ - PurchaseOrder.InvoiceTo.Address.postalCode<->Order.BillTo.PostalCode:1.00
+ - PurchaseOrder.InvoiceTo.Address.country<->Order.BillTo.Country:1.00
+ - PurchaseOrder.InvoiceTo.Address.city<->Order.BillTo.City:1.00
+ - PurchaseOrder.InvoiceTo<->Order.BillTo:1.00
+ - PurchaseOrder.Header.orderNum<->Order.OrderHeader.OrderNo:1.00
+ - PurchaseOrder.Header.orderDate<->Order.OrderHeader.DateCreated:1.00
+ - PurchaseOrder.Header<->Order.OrderHeader:1.00
+ - PurchaseOrder.DeliverTo.Contact.telephone<->Order.ShipTo.Contact.Phone:1.00
+ - PurchaseOrder.DeliverTo.Contact.e-mail<->Order.ShipTo.Contact.EMail:1.00
+ - PurchaseOrder.DeliverTo.Contact.contactName<->Order.ShipTo.Contact.Name:1.00
+ - PurchaseOrder.DeliverTo.Contact.companyName<->Order.ShipTo.CompanyName:1.00
+ - PurchaseOrder.DeliverTo.Contact<->Order.ShipTo.Contact:1.00
+ - PurchaseOrder.DeliverTo.Address.street4<->Order.ShipTo.Address:1.00
+ - PurchaseOrder.DeliverTo.Address.street3<->Order.ShipTo.Address:1.00
+ - PurchaseOrder.DeliverTo.Address.street2<->Order.ShipTo.Address2:1.00
+ - PurchaseOrder.DeliverTo.Address.street1<->Order.ShipTo.Address:1.00
+ - PurchaseOrder.DeliverTo.Address.street3 <-> Order.ShipTo.Address2:1.00
+ - PurchaseOrder.DeliverTo.Address.street2 <-> Order.ShipTo.Address:1.00
+ - PurchaseOrder.DeliverTo.Address.street4 <-> Order.ShipTo.Address2:1.00
+ - PurchaseOrder.DeliverTo.Address.street1 <-> Order.ShipTo.Address2:1.00
+ - PurchaseOrder.DeliverTo.Address.postalCode<->Order.ShipTo.PostalCode:1.00
+ - PurchaseOrder.DeliverTo.Address.country<->Order.ShipTo.Country:1.00
+ - PurchaseOrder.DeliverTo.Address.city<->Order.ShipTo.City:1.00
+ - PurchaseOrder.DeliverTo<->Order.ShipTo:1.00
+ - PurchaseOrder<->Order:1.00
+ - PurchaseOrder.Items.itemCount<->Order.OrdModels.TotalOrderlines:1.00
+ - PurchaseOrder.Items.Item.quantity<->Order.OrdModels.Model.ModQty:1.00
+ - PurchaseOrder.Items.Item.partNumber<->Order.OrdModels.Model.ColSizes.ColSize.ItemNo:1.00
+ - PurchaseOrder.InvoiceTo.Address.stateProvince<->Order.BillTo.County:1.00
+ - PurchaseOrder.Header.Contact.telephone<->Order.ShipTo.Contact.Phone:1.00
+ - PurchaseOrder.Header.Contact.telephone<->Order.BillTo.Contact.Phone:1.00
+ - PurchaseOrder.Header.Contact.e-mail<->Order.ShipTo.Contact.EMail:1.00
+ - PurchaseOrder.Header.Contact.e-mail<->Order.BillTo.Contact.EMail:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.ShipTo.Contact.Name:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.BillTo.Contact.Name:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.ShipTo.CompanyName:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.BillTo.CompanyName:1.00
+ - PurchaseOrder.Header.Contact<->Order.ShipTo.Contact:1.00
+ - PurchaseOrder.Header.Contact<->Order.BillTo.Contact:1.00
+ - PurchaseOrder.DeliverTo.Address.stateProvince<->Order.ShipTo.County:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: Excel_Apertum
+ + Source: Excel|REDUCED
+ + Target: Apertum|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PurchaseOrder.Items.Item.unitPrice<->Order.POLine.Price.UnitPrice:1.00
+ - PurchaseOrder.Items.Item.unitOfMeasure<->Order.POLine.Quantity.UnitOfMeasure:1.00
+ - PurchaseOrder.Items.Item.quantity<->Order.POLine.Quantity.QuantityAmount:1.00
+ - PurchaseOrder.Items.Item.partNumber<->Order.POLine.Product.SupplierPartID:1.00
+ - PurchaseOrder.Items.Item.partNumber<->Order.POLine.Product.BuyerPartID:1.00
+ - PurchaseOrder.Items.Item.partDescription<->Order.POLine.Product.SupplierPartDesc:1.00
+ - PurchaseOrder.Items.Item.partDescription<->Order.POLine.Product.BuyerPartDesc:1.00
+ - PurchaseOrder.Items.Item.itemNumber<->Order.POLine.LineNo:1.00
+ - PurchaseOrder.InvoiceTo.Contact.telephone<->Order.InvoiceTo.Contact.Phone:1.00
+ - PurchaseOrder.InvoiceTo.Contact.e-mail<->Order.InvoiceTo.Contact.EMail:1.00
+ - PurchaseOrder.InvoiceTo.Contact.contactName<->Order.InvoiceTo.Contact.FirstName:1.00
+ - PurchaseOrder.InvoiceTo.Contact.contactName<->Order.InvoiceTo.Contact.LastName:1.00
+ - PurchaseOrder.InvoiceTo.Contact<->Order.InvoiceTo.Contact:1.00
+ - PurchaseOrder.InvoiceTo.Address.street1<->Order.InvoiceTo.Address.Street:1.00
+ - PurchaseOrder.InvoiceTo.Address.stateProvince<->Order.InvoiceTo.Address.State:1.00
+ - PurchaseOrder.InvoiceTo.Address.postalCode<->Order.InvoiceTo.Address.PostCode:1.00
+ - PurchaseOrder.InvoiceTo.Address.country<->Order.InvoiceTo.Address.Country:1.00
+ - PurchaseOrder.InvoiceTo.Address.city<->Order.InvoiceTo.Address.City:1.00
+ - PurchaseOrder.InvoiceTo.Address<->Order.InvoiceTo.Address:1.00
+ - PurchaseOrder.InvoiceTo<->Order.InvoiceTo:1.00
+ - PurchaseOrder.Header.orderNum<->Order.POHead.OrderDetails.SupplierOrderReference:1.00
+ - PurchaseOrder.Header.orderNum<->Order.POHead.OrderDetails.BuyerOrderReference:1.00
+ - PurchaseOrder.Header.orderDate<->Order.POHead.OrderDetails.SupplierOrderDate:1.00
+ - PurchaseOrder.Header.orderDate<->Order.POHead.OrderDetails.BuyerOrderDate:1.00
+ - PurchaseOrder.Header.Contact.telephone<->Order.Buyer.Contact.Phone:1.00
+ - PurchaseOrder.Header.Contact.telephone<->Order.Supplier.Contact.Phone:1.00
+ - PurchaseOrder.Header.Contact.e-mail<->Order.Buyer.Contact.EMail:1.00
+ - PurchaseOrder.Header.Contact.e-mail<->Order.Supplier.Contact.EMail:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.Buyer.Contact.FirstName:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.Buyer.Contact.LastName:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.Supplier.Contact.FirstName:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.Supplier.Contact.LastName:1.00
+ - PurchaseOrder.Header.Contact<->Order.Buyer.Contact:1.00
+ - PurchaseOrder.Header.Contact<->Order.Supplier.Contact:1.00
+ - PurchaseOrder.Footer.totalValue<->Order.OrderTotal.TotalAmount.VAT_AmountTotal:1.00
+ - PurchaseOrder.DeliverTo.Contact.telephone<->Order.DeliverTo.Contact.Phone:1.00
+ - PurchaseOrder.DeliverTo.Contact.e-mail<->Order.DeliverTo.Contact.EMail:1.00
+ - PurchaseOrder.DeliverTo.Contact.contactName<->Order.DeliverTo.Contact.FirstName:1.00
+ - PurchaseOrder.DeliverTo.Contact.contactName<->Order.DeliverTo.Contact.LastName:1.00
+ - PurchaseOrder.DeliverTo.Contact<->Order.DeliverTo.Contact:1.00
+ - PurchaseOrder.DeliverTo.Address.street1<->Order.DeliverTo.Address.Street:1.00
+ - PurchaseOrder.DeliverTo.Address.stateProvince<->Order.DeliverTo.Address.State:1.00
+ - PurchaseOrder.DeliverTo.Address.postalCode<->Order.DeliverTo.Address.PostCode:1.00
+ - PurchaseOrder.DeliverTo.Address.country<->Order.DeliverTo.Address.Country:1.00
+ - PurchaseOrder.DeliverTo.Address.city<->Order.DeliverTo.Address.City:1.00
+ - PurchaseOrder.DeliverTo.Address<->Order.DeliverTo.Address:1.00
+ - PurchaseOrder.DeliverTo<->Order.DeliverTo:1.00
+ - PurchaseOrder<->Order:1.00
+ - PurchaseOrder.Items.itemCount<->Order.OrderTotal.NumberOfLines:1.00
+ - PurchaseOrder.Items.Item<->Order.POLine:1.00
+ - PurchaseOrder.InvoiceTo.Contact.companyName<->Order.InvoiceTo.Address.Name1:1.00
+ - PurchaseOrder.InvoiceTo.Contact.companyName<->Order.InvoiceTo.Address.Name2:1.00
+ - PurchaseOrder.InvoiceTo.Address.street4<->Order.InvoiceTo.Address.Street:1.00
+ - PurchaseOrder.InvoiceTo.Address.street3<->Order.InvoiceTo.Address.Street:1.00
+ - PurchaseOrder.InvoiceTo.Address.street2<->Order.InvoiceTo.Address.Street:1.00
+ - PurchaseOrder.Header.Contact.telephone<->Order.DeliverTo.Contact.Phone:1.00
+ - PurchaseOrder.Header.Contact.telephone<->Order.InvoiceTo.Contact.Phone:1.00
+ - PurchaseOrder.Header.Contact.e-mail<->Order.DeliverTo.Contact.EMail:1.00
+ - PurchaseOrder.Header.Contact.e-mail<->Order.InvoiceTo.Contact.EMail:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.DeliverTo.Contact.FirstName:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.InvoiceTo.Contact.FirstName:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.DeliverTo.Contact.LastName:1.00
+ - PurchaseOrder.Header.Contact.contactName<->Order.InvoiceTo.Contact.LastName:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.Supplier.Address.Name1:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.DeliverTo.Address.Name1:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.InvoiceTo.Address.Name1:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.Buyer.Address.Name2:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.Supplier.Address.Name2:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.DeliverTo.Address.Name2:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.InvoiceTo.Address.Name2:1.00
+ - PurchaseOrder.Header.Contact<->Order.DeliverTo.Contact:1.00
+ - PurchaseOrder.Header.Contact<->Order.InvoiceTo.Contact:1.00
+ - PurchaseOrder.Header<->Order.POHead:1.00
+ - PurchaseOrder.DeliverTo.Contact.companyName<->Order.DeliverTo.Address.Name1:1.00
+ - PurchaseOrder.DeliverTo.Contact.companyName<->Order.DeliverTo.Address.Name2:1.00
+ - PurchaseOrder.DeliverTo.Address.street4<->Order.DeliverTo.Address.Street:1.00
+ - PurchaseOrder.DeliverTo.Address.street3<->Order.DeliverTo.Address.Street:1.00
+ - PurchaseOrder.DeliverTo.Address.street2<->Order.DeliverTo.Address.Street:1.00
+ - PurchaseOrder.Header.Contact.companyName<->Order.Buyer.Address.Name1:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: Noris_Paragon
+ + Source: Noris|REDUCED
+ + Target: Paragon|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PurchaseOrder.ContactPerson.tel<->Order.ShipTo.Contact.Phone:1.00
+ - PurchaseOrder.ContactPerson.tel<->Order.BillTo.Contact.Phone:1.00
+ - PurchaseOrder.ContactPerson.fax<->Order.ShipTo.Contact.Fax:1.00
+ - PurchaseOrder.ContactPerson.fax<->Order.BillTo.Contact.Fax:1.00
+ - PurchaseOrder.ContactPerson.email<->Order.ShipTo.Contact.EMail:1.00
+ - PurchaseOrder.ContactPerson.email<->Order.BillTo.Contact.EMail:1.00
+ - PurchaseOrder.ContactPerson<->Order.ShipTo.Contact:1.00
+ - PurchaseOrder.ContactPerson<->Order.BillTo.Contact:1.00
+ - PurchaseOrder.InvoiceTo.Address.street<->Order.BillTo.Address:1.00
+ - PurchaseOrder.InvoiceTo.Address.street <-> Order.BillTo.Address2:1.00
+ - PurchaseOrder.InvoiceTo.Address.city<->Order.BillTo.City:1.00
+ - PurchaseOrder.InvoiceTo.Address.state<->Order.BillTo.County:1.00
+ - PurchaseOrder.InvoiceTo.Address.postalCode<->Order.BillTo.PostalCode:1.00
+ - PurchaseOrder.InvoiceTo.Address.country<->Order.BillTo.Country:1.00
+ - PurchaseOrder.InvoiceTo.Organization.referenceNo<->Order.BillTo.CustomerID:1.00
+ - PurchaseOrder.InvoiceTo<->Order.BillTo:1.00
+ - PurchaseOrder.DeliverTo.Address.street<->Order.ShipTo.Address:1.00
+ - PurchaseOrder.DeliverTo.Address.street <-> Order.ShipTo.Address2:1.00
+ - PurchaseOrder.DeliverTo.Address.city<->Order.ShipTo.City:1.00
+ - PurchaseOrder.DeliverTo.Address.state<->Order.ShipTo.County:1.00
+ - PurchaseOrder.DeliverTo.Address.postalCode<->Order.ShipTo.PostalCode:1.00
+ - PurchaseOrder.DeliverTo.Address.country<->Order.ShipTo.Country:1.00
+ - PurchaseOrder.DeliverTo.Organization.referenceNo<->Order.ShipTo.BranchID:1.00
+ - PurchaseOrder.DeliverTo<->Order.ShipTo:1.00
+ - PurchaseOrder.Line.lineNo<->Order.OrdModels.Model.LineNo:1.00
+ - PurchaseOrder.Line.productRef<->Order.OrdModels.Model.ModNo:1.00
+ - PurchaseOrder.Line.quantity<->Order.OrdModels.Model.ColSizes.ColSize.Qty:1.00
+ - PurchaseOrder.Line.unitPrice<->Order.OrdModels.Model.ColSizes.ColSize.NetPrchPrice:1.00
+ - PurchaseOrder.Line<->Order.OrdModels.Model:1.00
+ - PurchaseOrder.customerOrderRef<->Order.OrderHeader.OrderNo:1.00
+ - PurchaseOrder.customerOrderRef<->Order.BillTo.CustomerID:1.00
+ - PurchaseOrder.comments<->Order.OrderHeader.Comment:1.00
+ - PurchaseOrder.orderDate<->Order.OrderHeader.DateCreated:1.00
+ - PurchaseOrder<->Order:1.00
+ - PurchaseOrder.ContactPerson.firstName<->Order.ShipTo.Contact.Name:1.00
+ - PurchaseOrder.ContactPerson.firstName<->Order.BillTo.Contact.Name:1.00
+ - PurchaseOrder.ContactPerson.lastName<->Order.ShipTo.Contact.Name:1.00
+ - PurchaseOrder.ContactPerson.lastName<->Order.BillTo.Contact.Name:1.00
+ - PurchaseOrder.InvoiceTo.Organization.name<->Order.BillTo.CompanyName:1.00
+ - PurchaseOrder.DeliverTo.Organization.name<->Order.ShipTo.CompanyName:1.00
+ - PurchaseOrder.Line.quantity<->Order.OrdModels.Model.ModQty:1.00
+ - PurchaseOrder.Line.unitPrice<->Order.OrdModels.Model.TotalPrchPrice:1.00
+ - PurchaseOrder.Line.shipmentDate<->Order.OrdModels.Model.EarlDelDate:1.00
+ - PurchaseOrder.Line.shipmentDate<->Order.OrdModels.Model.LatDelDate:1.00
+ - PurchaseOrder.currencyCode<->Order.CurrencyInfo.CurrencyID:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: Noris_Apertum
+ + Source: Noris|REDUCED
+ + Target: Apertum|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - PurchaseOrder.Amount.amountExclVAT<->Order.OrderTotal.TotalAmount.Amount_ExclVAT:1.00
+ - PurchaseOrder.Amount.amountInclVAT<->Order.OrderTotal.TotalAmount.Amount_InclVAT:1.00
+ - PurchaseOrder.ContactPerson.firstName<->Order.Buyer.Contact.FirstName:1.00
+ - PurchaseOrder.ContactPerson.firstName<->Order.Supplier.Contact.FirstName:1.00
+ - PurchaseOrder.ContactPerson.firstName<->Order.DeliverTo.Contact.FirstName:1.00
+ - PurchaseOrder.ContactPerson.firstName<->Order.InvoiceTo.Contact.FirstName:1.00
+ - PurchaseOrder.ContactPerson.lastName<->Order.Buyer.Contact.LastName:1.00
+ - PurchaseOrder.ContactPerson.lastName<->Order.Supplier.Contact.LastName:1.00
+ - PurchaseOrder.ContactPerson.lastName<->Order.DeliverTo.Contact.LastName:1.00
+ - PurchaseOrder.ContactPerson.lastName<->Order.InvoiceTo.Contact.LastName:1.00
+ - PurchaseOrder.ContactPerson.title<->Order.Buyer.Contact.Title:1.00
+ - PurchaseOrder.ContactPerson.title<->Order.Supplier.Contact.Title:1.00
+ - PurchaseOrder.ContactPerson.title<->Order.DeliverTo.Contact.Title:1.00
+ - PurchaseOrder.ContactPerson.title<->Order.InvoiceTo.Contact.Title:1.00
+ - PurchaseOrder.ContactPerson.position<->Order.Buyer.Contact.JobTitle:1.00
+ - PurchaseOrder.ContactPerson.position<->Order.Supplier.Contact.JobTitle:1.00
+ - PurchaseOrder.ContactPerson.position<->Order.DeliverTo.Contact.JobTitle:1.00
+ - PurchaseOrder.ContactPerson.position<->Order.InvoiceTo.Contact.JobTitle:1.00
+ - PurchaseOrder.ContactPerson.tel<->Order.Buyer.Contact.Phone:1.00
+ - PurchaseOrder.ContactPerson.tel<->Order.Supplier.Contact.Phone:1.00
+ - PurchaseOrder.ContactPerson.tel<->Order.DeliverTo.Contact.Phone:1.00
+ - PurchaseOrder.ContactPerson.tel<->Order.InvoiceTo.Contact.Phone:1.00
+ - PurchaseOrder.ContactPerson.fax<->Order.Buyer.Contact.Fax:1.00
+ - PurchaseOrder.ContactPerson.fax<->Order.Supplier.Contact.Fax:1.00
+ - PurchaseOrder.ContactPerson.fax<->Order.DeliverTo.Contact.Fax:1.00
+ - PurchaseOrder.ContactPerson.fax<->Order.InvoiceTo.Contact.Fax:1.00
+ - PurchaseOrder.ContactPerson.email<->Order.Buyer.Contact.EMail:1.00
+ - PurchaseOrder.ContactPerson.email<->Order.Supplier.Contact.EMail:1.00
+ - PurchaseOrder.ContactPerson.email<->Order.DeliverTo.Contact.EMail:1.00
+ - PurchaseOrder.ContactPerson.email<->Order.InvoiceTo.Contact.EMail:1.00
+ - PurchaseOrder.ContactPerson<->Order.Buyer.Contact:1.00
+ - PurchaseOrder.ContactPerson<->Order.Supplier.Contact:1.00
+ - PurchaseOrder.ContactPerson<->Order.DeliverTo.Contact:1.00
+ - PurchaseOrder.ContactPerson<->Order.InvoiceTo.Contact:1.00
+ - PurchaseOrder.InvoiceTo.Address.street<->Order.InvoiceTo.Address.Street:1.00
+ - PurchaseOrder.InvoiceTo.Address.city<->Order.InvoiceTo.Address.City:1.00
+ - PurchaseOrder.InvoiceTo.Address.state<->Order.InvoiceTo.Address.State:1.00
+ - PurchaseOrder.InvoiceTo.Address.postalCode<->Order.InvoiceTo.Address.PostCode:1.00
+ - PurchaseOrder.InvoiceTo.Address.country<->Order.InvoiceTo.Address.Country:1.00
+ - PurchaseOrder.InvoiceTo.Address<->Order.InvoiceTo.Address:1.00
+ - PurchaseOrder.InvoiceTo.Organization.referenceNo<->Order.InvoiceTo.SupplierReferenceNo:1.00
+ - PurchaseOrder.InvoiceTo.Organization.referenceNo<->Order.InvoiceTo.BuyerReferenceNo:1.00
+ - PurchaseOrder.InvoiceTo.Organization.name<->Order.InvoiceTo.Address.Name1:1.00
+ - PurchaseOrder.InvoiceTo.Organization.name<->Order.InvoiceTo.Address.Name2:1.00
+ - PurchaseOrder.InvoiceTo.Organization.VATRegistrationNo<->Order.InvoiceTo.VAT_RegistrationNo:1.00
+ - PurchaseOrder.InvoiceTo<->Order.InvoiceTo:1.00
+ - PurchaseOrder.DeliverTo.Address.street<->Order.DeliverTo.Address.Street:1.00
+ - PurchaseOrder.DeliverTo.Address.city<->Order.DeliverTo.Address.City:1.00
+ - PurchaseOrder.DeliverTo.Address.state<->Order.DeliverTo.Address.State:1.00
+ - PurchaseOrder.DeliverTo.Address.postalCode<->Order.DeliverTo.Address.PostCode:1.00
+ - PurchaseOrder.DeliverTo.Address.country<->Order.DeliverTo.Address.Country:1.00
+ - PurchaseOrder.DeliverTo.Address<->Order.DeliverTo.Address:1.00
+ - PurchaseOrder.DeliverTo.Organization.referenceNo<->Order.DeliverTo.SupplierReferenceNo:1.00
+ - PurchaseOrder.DeliverTo.Organization.referenceNo<->Order.DeliverTo.BuyerReferenceNo:1.00
+ - PurchaseOrder.DeliverTo.Organization.name<->Order.DeliverTo.Address.Name1:1.00
+ - PurchaseOrder.DeliverTo.Organization.name<->Order.DeliverTo.Address.Name2:1.00
+ - PurchaseOrder.DeliverTo.Organization.VATRegistrationNo<->Order.DeliverTo.VAT_RegistrationNo:1.00
+ - PurchaseOrder.DeliverTo<->Order.DeliverTo:1.00
+ - PurchaseOrder.Line.Amount.VATRate<->Order.POLine.Amount.VAT_Rate:1.00
+ - PurchaseOrder.Line.Amount.amountExclVAT<->Order.POLine.Amount.Amount_ExclVAT:1.00
+ - PurchaseOrder.Line.Amount.VATAmount<->Order.POLine.Amount.VAT_Amount:1.00
+ - PurchaseOrder.Line.Amount.amountInclVAT<->Order.POLine.Amount.Amount_InclVAT:1.00
+ - PurchaseOrder.Line.Amount<->Order.POLine.Amount:1.00
+ - PurchaseOrder.Line.lineNo<->Order.POLine.LineNo:1.00
+ - PurchaseOrder.Line.productRef<->Order.POLine.Product.SupplierPartID:1.00
+ - PurchaseOrder.Line.productRef<->Order.POLine.Product.BuyerPartID:1.00
+ - PurchaseOrder.Line.quantity<->Order.POLine.Quantity.QuantityAmount:1.00
+ - PurchaseOrder.Line.unitOfMeasureRef<->Order.POLine.Quantity.UnitOfMeasure:1.00
+ - PurchaseOrder.Line.unitPrice<->Order.POLine.Price.UnitPrice:1.00
+ - PurchaseOrder.Line.shipmentDate<->Order.POLine.RequestedDeliveryDate.Date:1.00
+ - PurchaseOrder.customerOrderRef<->Order.POHead.OrderDetails.BuyerOrderReference:1.00
+ - PurchaseOrder.orderDate<->Order.POHead.OrderDetails.SupplierOrderDate:1.00
+ - PurchaseOrder.orderDate<->Order.POHead.OrderDetails.BuyerOrderDate:1.00
+ - PurchaseOrder.totalAmount<->Order.OrderTotal.TotalAmount.VAT_AmountTotal:1.00
+ - PurchaseOrder.currencyCode<->Order.POHead.Currency.CurrencyCode:1.00
+ - PurchaseOrder.Amount.VATRate<->Order.OrderTotal.TotalAmount.VAT_Rate1:1.00
+ - PurchaseOrder.Amount.VATRate<->Order.OrderTotal.TotalAmount.VAT_Rate2:1.00
+ - PurchaseOrder.Amount.VATRate<->Order.OrderTotal.TotalAmount.VAT_Rate3:1.00
+ - PurchaseOrder.Amount.VATAmount<->Order.OrderTotal.TotalAmount.VAT_Amount1:1.00
+ - PurchaseOrder.Amount.VATAmount<->Order.OrderTotal.TotalAmount.VAT_Amount2:1.00
+ - PurchaseOrder.Amount.VATAmount<->Order.OrderTotal.TotalAmount.VAT_Amount3:1.00
+ - PurchaseOrder.Amount<->Order.OrderTotal.TotalAmount:1.00
+ - PurchaseOrder.Line<->Order.POLine:1.00
+ - PurchaseOrder.customerOrderRef<->Order.POHead.OrderDetails.SupplierOrderReference:1.00
+ - PurchaseOrder<->Order:1.00
+--------------------------------------------------------:
+--------------------------------------------------------:
+MatchResult:
+ + Name: Paragon_Apertum
+ + Source: Paragon|REDUCED
+ + Target: Apertum|REDUCED
+ + Matcher: FEEDBACK
+ + Config: Unknown
+ - Order.OrderHeader.OrderNo<->Order.POHead.OrderDetails.SupplierOrderReference:1.00
+ - Order.OrderHeader.OrderNo<->Order.POHead.OrderDetails.BuyerOrderReference:1.00
+ - Order.OrderHeader.OrderDesc<->Order.POHead.TermsOfPayment.Description:1.00
+ - Order.OrderHeader<->Order.POHead.OrderDetails:1.00
+ - Order.Supplier.SupID<->Order.Buyer.SupplierReferenceNo:1.00
+ - Order.Supplier.SupID<->Order.Supplier.SupplierReferenceNo:1.00
+ - Order.Supplier.SupID<->Order.DeliverTo.SupplierReferenceNo:1.00
+ - Order.Supplier.SupID<->Order.InvoiceTo.SupplierReferenceNo:1.00
+ - Order.Supplier.PostalCode<->Order.Supplier.Address.PostCode:1.00
+ - Order.Supplier.County<->Order.Supplier.Address.State:1.00
+ - Order.Supplier.Country<->Order.Supplier.Address.Country:1.00
+ - Order.Supplier.City<->Order.Supplier.Address.City:1.00
+ - Order.Supplier.Address<->Order.Supplier.Address.Street:1.00
+ - Order.Supplier<->Order.Supplier:1.00
+ - Order.ShipTo.PostalCode<->Order.DeliverTo.Address.PostCode:1.00
+ - Order.ShipTo.County<->Order.DeliverTo.Address.State:1.00
+ - Order.ShipTo.Country<->Order.DeliverTo.Address.Country:1.00
+ - Order.ShipTo.City<->Order.DeliverTo.Address.City:1.00
+ - Order.ShipTo.Address<->Order.DeliverTo.Address.Street:1.00
+ - Order.ShipTo.Contact.Phone<->Order.DeliverTo.Contact.Phone:1.00
+ - Order.ShipTo.Contact.Name<->Order.DeliverTo.Contact.FirstName:1.00
+ - Order.ShipTo.Contact.Name<->Order.DeliverTo.Contact.LastName:1.00
+ - Order.ShipTo.Contact.Fax<->Order.DeliverTo.Contact.Fax:1.00
+ - Order.ShipTo.Contact.EMail<->Order.DeliverTo.Contact.EMail:1.00
+ - Order.ShipTo.Contact<->Order.DeliverTo.Contact:1.00
+ - Order.ShipTo<->Order.DeliverTo:1.00
+ - Order.OrdModels.Model.TotalPrchPrice<->Order.POLine.Price.UnitPrice:1.00
+ - Order.OrdModels.Model.ModNo<->Order.POLine.LineNo:1.00
+ - Order.OrdModels.Model.LineNo<->Order.POLine.LineNo:1.00
+ - Order.OrdModels.Model.ColSizes.ColSize.Qty<->Order.POLine.Quantity.QuantityAmount:1.00
+ - Order.OrdModels.Model.ColSizes.ColSize.NetPrchPrice<->Order.POLine.Price.UnitPrice:1.00
+ - Order.OrdModels.Model.ColSizes.ColSize.ItemNo<->Order.POLine.LineNo:1.00
+ - Order.OrdModels.Model.ColSizes.ColSize.EAN<->Order.POLine.Product.EAN:1.00
+ - Order.OrdModels.Model<->Order.POLine.Product:1.00
+ - Order.CurrencyInfo<->Order.POHead.Currency:1.00
+ - Order.BillTo.Contact.Phone<->Order.InvoiceTo.Contact.Phone:1.00
+ - Order.BillTo.Contact.Name<->Order.InvoiceTo.Contact.FirstName:1.00
+ - Order.BillTo.Contact.Name<->Order.InvoiceTo.Contact.LastName:1.00
+ - Order.BillTo.Contact.Fax<->Order.InvoiceTo.Contact.Fax:1.00
+ - Order.BillTo.Contact.EMail<->Order.InvoiceTo.Contact.EMail:1.00
+ - Order.BillTo.Contact<->Order.InvoiceTo.Contact:1.00
+ - Order.BillTo.PostalCode<->Order.InvoiceTo.Address.PostCode:1.00
+ - Order.BillTo.CustomerID<->Order.InvoiceTo.BuyerReferenceNo:1.00
+ - Order.BillTo.County<->Order.InvoiceTo.Address.State:1.00
+ - Order.BillTo.Country<->Order.InvoiceTo.Address.Country:1.00
+ - Order.BillTo.City<->Order.InvoiceTo.Address.City:1.00
+ - Order.BillTo.Address<->Order.InvoiceTo.Address.Street:1.00
+ - Order.BillTo<->Order.InvoiceTo:1.00
+ - Order.OrderHeader.DateCreated<->Order.POHead.OrderDetails.SupplierOrderDate:1.00
+ - Order.OrderHeader.DateCreated<->Order.POHead.OrderDetails.BuyerOrderDate:1.00
+ - Order.OrderHeader<->Order.POHead:1.00
+ - Order.Supplier.SupName<->Order.Supplier.Address.Name1:1.00
+ - Order.Supplier.SupName<->Order.Supplier.Address.Name2:1.00
+ - Order.Supplier.Address2<->Order.Supplier.Address.Street:1.00
+ - Order.ShipTo.CompanyName<->Order.DeliverTo.Address.Name1:1.00
+ - Order.ShipTo.CompanyName<->Order.DeliverTo.Address.Name2:1.00
+ - Order.ShipTo.Address2<->Order.DeliverTo.Address.Street:1.00
+ - Order.OrdModels.TotalOrderlines<->Order.OrderTotal.NumberOfLines:1.00
+ - Order.OrdModels.Model.ModQty<->Order.POLine.Quantity.QuantityAmount:1.00
+ - Order.OrdModels.Model.LatDelDate<->Order.POLine.RequestedDeliveryDate.Date:1.00
+ - Order.OrdModels.Model.EarlDelDate<->Order.POLine.RequestedDeliveryDate.Date:1.00
+ - Order.CurrencyInfo.CurrencyID<->Order.POHead.Currency.CurrencyCode:1.00
+ - Order.BillTo.CompanyName<->Order.InvoiceTo.Address.Name1:1.00
+ - Order.BillTo.CompanyName<->Order.InvoiceTo.Address.Name2:1.00
+ - Order.BillTo.Address2<->Order.InvoiceTo.Address.Street:1.00
+ - Order<->Order:1.00
+--------------------------------------------------------:

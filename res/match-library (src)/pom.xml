@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.wdilab</groupId>
+  <artifactId>MatchLibrary-Matchers</artifactId>
+  <version>1.0.2-SNAPSHOT</version>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+      		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-source-plugin</artifactId>
+			<executions>
+				<execution>
+					<id>attach-sources</id>
+					<goals>
+						<goal>jar</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+      
+    </plugins>
+  </build>
+  
+   <distributionManagement>
+  
+  		<!--repository>
+         <id>nexus</id>
+         <url>http://wdiserv1:8080/nexus/content/repositories/wdi-wg3-releases</url>
+       </repository-->
+       <snapshotRepository>
+         <id>nexus</id>
+         <url>http://wdiserv1:8080/nexus/content/repositories/wdi-wg3-snapshots</url>
+       </snapshotRepository>
+  
+ </distributionManagement>
+  
+  
+  <dependencies>
+     <dependency>
+      <groupId>de.wdilab</groupId>
+      <artifactId>MatchLibrary-Interfaces</artifactId>
+      <version>1.0.2-SNAPSHOT</version>
+    </dependency>
+        <dependency>
+      <groupId>de.wdilab</groupId>
+      <artifactId>MatchLibrary-Utilities</artifactId>
+      <version>1.0.2-SNAPSHOT</version>
+    </dependency> 
+    <dependency>
+      <groupId>de.wdilab</groupId>
+      <artifactId>MatchLibrary-ProviderStores</artifactId>
+      <version>1.0.2-SNAPSHOT</version>
+    </dependency>
+        <dependency>
+      <groupId>de.wdilab</groupId>
+      <artifactId>MatchLibrary-Preprocessing</artifactId>
+      <version>1.0.2-SNAPSHOT</version>
+    </dependency> 
+        <dependency>
+      <groupId>de.wdilab</groupId>
+      <artifactId>MatchLibrary-SSJoinJava</artifactId>
+      <version>1.0.2-SNAPSHOT</version>
+    </dependency> 
+     
+
+ <dependency>
+  <groupId>log4j</groupId>
+  <artifactId>log4j</artifactId>
+  <version>1.2.15</version>
+  <scope>provided</scope>
+  <exclusions>
+    <exclusion>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+    </exclusion>
+    <exclusion>
+      <groupId>javax.jms</groupId>
+      <artifactId>jms</artifactId>
+    </exclusion>
+    <exclusion>
+      <groupId>com.sun.jdmk</groupId>
+      <artifactId>jmxtools</artifactId>
+    </exclusion>
+    <exclusion>
+      <groupId>com.sun.jmx</groupId>
+      <artifactId>jmxri</artifactId>
+    </exclusion>
+  </exclusions>
+</dependency>
+
+<dependency>
+  <groupId>org.apache.lucene</groupId>
+  <artifactId>analyzers</artifactId>
+  <version>3.0.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.lucene</groupId>
+  <artifactId>core</artifactId>
+  <version>3.0.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.lucene</groupId>
+  <artifactId>highlighter</artifactId>
+  <version>3.0.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.lucene</groupId>
+  <artifactId>queries</artifactId>
+  <version>3.0.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.lucene</groupId>
+  <artifactId>spellchecker</artifactId>
+  <version>3.0.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.mahout</groupId>
+  <artifactId>collections</artifactId>
+  <version>1.0</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.mahout</groupId>
+  <artifactId>core</artifactId>
+  <version>0.5-SN</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.mahout</groupId>
+  <artifactId>math</artifactId>
+  <version>0.5-SN</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.mahout</groupId>
+  <artifactId>utils</artifactId>
+  <version>0.5-SN</version>
+</dependency>
+<dependency>
+  <groupId>uk.ac</groupId>
+  <artifactId>simmetrics</artifactId>
+  <version>1_6_2_d07_02_07</version>
+</dependency>
+<dependency>
+  <groupId>com.wcohen</groupId>
+  <artifactId>secondstring</artifactId>
+  <version>20060615</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.hadoop</groupId>
+  <artifactId>core</artifactId>
+  <version>0.20.2</version>
+</dependency>
+<dependency>
+  <groupId>com.google.common</groupId>
+  <artifactId>collect</artifactId>
+  <version>1.0</version>
+</dependency>
+<dependency>
+  <groupId>de.ifuice</groupId>
+  <artifactId>ifuice</artifactId>
+  <version>2009</version>
+</dependency>
+<dependency>
+  <groupId>javolution</groupId>
+  <artifactId>javolution</artifactId>
+  <version>5.5.1</version>
+</dependency>
+<dependency>
+  <groupId>de.uni-leipzig</groupId>
+  <artifactId>simba</artifactId>
+  <version>0.0.0</version>
+</dependency>
+ 
+</dependencies>
+</project>

@@ -1,0 +1,122 @@
+<?xml version="1.0" ?> 
+ <Schema name="NORIS_PurchaseOrder" xmlns="urn:schemas-microsoft-com:xml-data" 
+	xmlns:dt="urn:schemas-microsoft-com:datatypes"> 
+
+  <ElementType name="referenceNo" content="textOnly" dt:type="string"/>
+  <ElementType name="name" content="textOnly" dt:type="string"/>
+
+  <ElementType name="VATRate" content="textOnly" dt:type="float"/>
+  <ElementType name="amountExclVAT" content="textOnly" dt:type="float"/>
+  <ElementType name="VATAmount" content="textOnly" dt:type="float"/>
+  <ElementType name="amountInclVAT" content="textOnly" dt:type="float"/>
+  <ElementType name="Amount" content="eltOnly">
+    <element type="VATRate" minOccurs = "0" maxOccurs = "1"/>
+    <element type="amountExclVAT" minOccurs = "1" maxOccurs = "1"/>
+    <element type="VATAmount" minOccurs = "0" maxOccurs = "1"/>
+    <element type="amountInclVAT" minOccurs = "1" maxOccurs = "1"/>
+  </ElementType>  
+
+  <ElementType name="firstName" content="textOnly" dt:type="string"/>
+  <ElementType name="lastName" content="textOnly" dt:type="string"/>
+  <ElementType name="title" content="textOnly" dt:type="string"/>
+  <ElementType name="suffix" content="textOnly" dt:type="string"/>
+  <ElementType name="position" content="textOnly" dt:type="string"/>
+  <ElementType name="tel" content="textOnly" dt:type="string"/>
+  <ElementType name="fax" content="textOnly" dt:type="string"/>
+  <ElementType name="email" content="textOnly" dt:type="string"/>
+  <ElementType name="ContactPerson" content="eltOnly">
+    <element type="referenceNo" minOccurs = "1" maxOccurs = "1"/>
+    <element type="firstName" minOccurs = "1" maxOccurs = "1"/>
+    <element type="lastName" minOccurs = "1" maxOccurs = "1"/>
+    <element type="title" minOccurs = "0" maxOccurs = "1"/>
+    <element type="suffix" minOccurs = "0" maxOccurs = "1"/>
+    <element type="position" minOccurs = "0" maxOccurs = "1"/>
+    <element type="tel" minOccurs = "0" maxOccurs = "1"/>
+    <element type="fax" minOccurs = "0" maxOccurs = "1"/>
+    <element type="email" minOccurs = "0" maxOccurs = "1"/>
+  </ElementType>  
+
+  <ElementType name="street" content="textOnly" dt:type="string"/>
+  <ElementType name="city" content="textOnly" dt:type="string"/>
+  <ElementType name="state" content="textOnly" dt:type="string"/>
+  <ElementType name="postalCode" content="textOnly" dt:type="string"/>
+  <ElementType name="country" content="textOnly" dt:type="string"/>
+  <ElementType name="Address" content="eltOnly">
+    <element type="street" minOccurs = "0" maxOccurs = "1"/>
+    <element type="city" minOccurs = "0" maxOccurs = "1"/>
+    <element type="state" minOccurs = "0" maxOccurs = "1"/>
+    <element type="postalCode" minOccurs = "0" maxOccurs = "1"/>
+    <element type="country" minOccurs = "0" maxOccurs = "1"/>
+  </ElementType>  
+
+  <ElementType name="registrationNo" content="textOnly" dt:type="string"/>
+  <ElementType name="VATRegistrationNo" content="textOnly" dt:type="string"/>
+  <ElementType name="url" content="textOnly" dt:type="string"/>
+  <ElementType name="Organization" content="eltOnly">
+    <element type="referenceNo" minOccurs = "1" maxOccurs = "1"/>
+    <element type="name" minOccurs = "1" maxOccurs = "1"/>
+    <element type="registrationNo" minOccurs = "1" maxOccurs = "1"/>
+    <element type="VATRegistrationNo" minOccurs = "0" maxOccurs = "1"/>
+    <element type="url" minOccurs = "0" maxOccurs = "1"/>
+  </ElementType>  
+
+
+  <ElementType name="InvoiceTo" content="eltOnly">
+    <element type="Organization" minOccurs = "1" maxOccurs = "1"/>
+    <element type="Address" minOccurs = "1" maxOccurs = "1"/>
+  </ElementType>  
+
+  <ElementType name="DeliverTo" content="eltOnly">
+    <element type="Organization" minOccurs = "1" maxOccurs = "1"/>
+    <element type="Address" minOccurs = "1" maxOccurs = "1"/>
+  </ElementType>  
+
+  <ElementType name="lineNo" content="textOnly" dt:type="number"/>
+  <ElementType name="productRef" content="textOnly" dt:type="string"/>
+  <ElementType name="productName" content="textOnly" dt:type="string"/>
+  <ElementType name="quantity" content="textOnly" dt:type="float"/>
+  <ElementType name="unitOfMeasureRef" content="textOnly" dt:type="string"/>
+  <ElementType name="unitPrice" content="textOnly" dt:type="float"/>
+  <ElementType name="priceLevelRef" content="textOnly" dt:type="string"/>
+  <ElementType name="projectRef" content="textOnly" dt:type="string"/>
+  <ElementType name="projectTaskRef" content="textOnly" dt:type="string"/>
+  <ElementType name="Line" content="eltOnly">
+    <element type="lineNo" minOccurs = "1" maxOccurs = "1"/>
+    <element type="productRef" minOccurs = "1" maxOccurs = "1"/>
+    <element type="productName" minOccurs = "0" maxOccurs = "1"/>
+    <element type="quantity" minOccurs = "1" maxOccurs = "1"/>
+    <element type="unitOfMeasureRef" minOccurs = "1" maxOccurs = "1"/>
+    <element type="unitPrice" minOccurs = "1" maxOccurs = "1"/>
+    <element type="Amount" minOccurs = "1" maxOccurs = "1"/>
+    <element type="shipmentDate" minOccurs = "0" maxOccurs = "1"/>
+    <element type="priceLevelRef" minOccurs = "0" maxOccurs = "1"/>
+    <element type="projectRef" minOccurs = "0" maxOccurs = "1"/>
+    <element type="projectTaskRef" minOccurs = "0" maxOccurs = "1"/>
+  </ElementType>  
+
+
+  <ElementType name="customerOrderRef" content="textOnly" dt:type="string"/>
+  <ElementType name="comments" content="textOnly" dt:type="string"/>
+  <ElementType name="orderDate" content="textOnly" dt:type="date"/>
+  <ElementType name="shipmentDate" content="textOnly" dt:type="date"/>
+  <ElementType name="totalAmount" content="textOnly" dt:type="float"/>
+  <ElementType name="roundingAmount" content="textOnly" dt:type="float"/>
+  <ElementType name="currencyCode" content="textOnly" dt:type="string"/>
+
+  <ElementType name="PurchaseOrder" content="eltOnly" >
+    <element type="customerOrderRef" minOccurs = "1" maxOccurs = "1"/>
+    <element type="InvoiceTo" minOccurs = "1" maxOccurs = "1"/>
+    <element type="DeliverTo" minOccurs = "1" maxOccurs = "1"/>
+    <element type="comments" minOccurs = "0" maxOccurs = "1"/>
+    <element type="ContactPerson" minOccurs = "0" maxOccurs = "1"/>
+    <element type="orderDate" minOccurs = "1" maxOccurs = "1"/>
+    <element type="shipmentDate" minOccurs = "1" maxOccurs = "1"/>
+    <element type="Amount" minOccurs = "1" maxOccurs = "*"/>
+    <element type="totalAmount" minOccurs = "1" maxOccurs = "1"/>
+    <element type="roundingAmount" minOccurs = "1" maxOccurs = "1"/>
+    <element type="currencyCode" minOccurs = "1" maxOccurs = "1"/>
+    <element type="Line" minOccurs = "1" maxOccurs = "*"/>
+  </ElementType>  
+
+
+</Schema>

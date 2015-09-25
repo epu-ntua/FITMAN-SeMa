@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding='utf-8' ?>
+
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+
+
+<!--MatchResult of simMatrix [48,59] + Name: Excel_Apertum + Info: null + Source: null + Target: null + Matcher: null + Config: null-->
+
+
+<xml>yes</xml>
+<level>0</level>
+<type>11</type>
+<onto1>D:/workspace_new/coma-project/coma-insert/src/test/java/resources/Sources/PO_xdr/Excel.xdr</onto1>
+<onto2>D:/workspace_new/coma-project/coma-insert/src/test/java/resources/Sources/PO_xdr/Apertum.xdr</onto2>
+<uri1>PurchaseOrder.biz</uri1>
+<uri2>APERTUM_PO_1</uri2>
+<map>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.unitPrice"/>
+<entity2 rdf:resource="Order.POLine.Price.UnitPrice"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.unitOfMeasure"/>
+<entity2 rdf:resource="Order.POLine.Quantity.UnitOfMeasure"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.quantity"/>
+<entity2 rdf:resource="Order.POLine.Quantity.QuantityAmount"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.partNumber"/>
+<entity2 rdf:resource="Order.POLine.Product.SupplierPartID"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.partNumber"/>
+<entity2 rdf:resource="Order.POLine.Product.BuyerPartID"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.partDescription"/>
+<entity2 rdf:resource="Order.POLine.Product.SupplierPartDesc"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.partDescription"/>
+<entity2 rdf:resource="Order.POLine.Product.BuyerPartDesc"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item.itemNumber"/>
+<entity2 rdf:resource="Order.POLine.LineNo"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Contact.telephone"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.Phone"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Contact.e-mail"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.EMail"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Contact.contactName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.FirstName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Contact.contactName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.LastName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Contact"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.street1"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.stateProvince"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.State"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.postalCode"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.PostCode"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.country"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Country"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.city"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.City"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo"/>
+<entity2 rdf:resource="Order.InvoiceTo"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.orderNum"/>
+<entity2 rdf:resource="Order.POHead.OrderDetails.SupplierOrderReference"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.orderNum"/>
+<entity2 rdf:resource="Order.POHead.OrderDetails.BuyerOrderReference"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.orderDate"/>
+<entity2 rdf:resource="Order.POHead.OrderDetails.SupplierOrderDate"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.orderDate"/>
+<entity2 rdf:resource="Order.POHead.OrderDetails.BuyerOrderDate"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.telephone"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.Phone"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.telephone"/>
+<entity2 rdf:resource="Order.Buyer.Contact.Phone"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.telephone"/>
+<entity2 rdf:resource="Order.Supplier.Contact.Phone"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.telephone"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.Phone"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.e-mail"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.EMail"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.e-mail"/>
+<entity2 rdf:resource="Order.Buyer.Contact.EMail"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.e-mail"/>
+<entity2 rdf:resource="Order.Supplier.Contact.EMail"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.e-mail"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.EMail"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.FirstName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact.LastName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.Buyer.Contact.FirstName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.Buyer.Contact.LastName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.Supplier.Contact.FirstName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.Supplier.Contact.LastName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.FirstName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.contactName"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.LastName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact"/>
+<entity2 rdf:resource="Order.InvoiceTo.Contact"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact"/>
+<entity2 rdf:resource="Order.Buyer.Contact"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact"/>
+<entity2 rdf:resource="Order.Supplier.Contact"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Footer.totalValue"/>
+<entity2 rdf:resource="Order.OrderTotal.TotalAmount.VAT_AmountTotal"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Contact.telephone"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.Phone"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Contact.e-mail"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.EMail"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Contact.contactName"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.FirstName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Contact.contactName"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact.LastName"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Contact"/>
+<entity2 rdf:resource="Order.DeliverTo.Contact"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.street1"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.stateProvince"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.State"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.postalCode"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.PostCode"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.country"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Country"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.city"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.City"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address"/>
+<entity2 rdf:resource="Order.DeliverTo.Address"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo"/>
+<entity2 rdf:resource="Order.DeliverTo"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder"/>
+<entity2 rdf:resource="Order"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.itemCount"/>
+<entity2 rdf:resource="Order.OrderTotal.NumberOfLines"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Items.Item"/>
+<entity2 rdf:resource="Order.POLine"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Contact.companyName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Name1"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Contact.companyName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Name2"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.street4"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.street3"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.InvoiceTo.Address.street2"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Name1"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.InvoiceTo.Address.Name2"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.Supplier.Address.Name1"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Name1"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.Buyer.Address.Name2"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.Supplier.Address.Name2"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Name2"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header.Contact.companyName"/>
+<entity2 rdf:resource="Order.Buyer.Address.Name1"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.Header"/>
+<entity2 rdf:resource="Order.POHead"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Contact.companyName"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Name1"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Contact.companyName"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Name2"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.street4"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.street3"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource="PurchaseOrder.DeliverTo.Address.street2"/>
+<entity2 rdf:resource="Order.DeliverTo.Address.Street"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>
+
