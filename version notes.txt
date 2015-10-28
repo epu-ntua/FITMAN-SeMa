@@ -1,0 +1,5 @@
+Changes from version 1.00.00
+-----------------------------
+
+Provide the alternative to store ontology matching triplets locally
+Bug fixes
